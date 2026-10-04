@@ -430,8 +430,15 @@ export const clock_tick = spacetimedb.reducer({ name: 'clock_tick', onSchedule: 
   if (!ctx.sender.isEqual(ctx.databaseIdentity)) throw new SenderError('clock_tick is scheduler-only');
   const now = ctx.timestamp.microsSinceUnixEpoch;
   let world: CosmosWorld | null = null;
+  // Sessions with someone online right now; idle worlds are paused so they cost nothing.
+  const active = new Set<string>();
+  for (const p of ctx.db.presence.iter()) if (p.online) active.add(p.sessionId);
   for (const c of [...ctx.db.simulationClock.iter()]) {
     if (!c.running) continue;
+    if (!active.has(c.sessionId)) {
+      ctx.db.simulationClock.branchId.update({ ...c, running: false, updatedAt: ctx.timestamp });
+      continue;
+    }
     const dt = Math.min(5, Number(now - c.updatedAt.microsSinceUnixEpoch) / 1e6);
     const simSeconds = Math.min(MAX_SIM_SECONDS, c.simSeconds + c.rate * Math.max(0, dt));
     ctx.db.simulationClock.branchId.update({ ...c, simSeconds, running: simSeconds < MAX_SIM_SECONDS, updatedAt: ctx.timestamp });
@@ -555,6 +562,12 @@ export const rls_legacy_branch = spacetimedb.clientVisibilityFilter.sql('SELECT 
 export const rebuild_acl = spacetimedb.reducer((ctx) => {
   requireAdmin(ctx);
   for (const m of [...ctx.db.sessionMember.iter()]) syncAcl(ctx, m.id);
+});
+
+/** Admin: pause every running clock (energy cleanup). */
+export const pause_all_clocks = spacetimedb.reducer((ctx) => {
+  requireAdmin(ctx);
+  for (const c of [...ctx.db.simulationClock.iter()]) if (c.running) ctx.db.simulationClock.branchId.update({ ...c, running: false, updatedAt: ctx.timestamp });
 });
 
 /** Admin can describe the active intervention kinds (sanity check after publish). */
