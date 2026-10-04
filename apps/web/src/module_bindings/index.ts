@@ -52,6 +52,7 @@ import ForkWorldBranchReducer from "./fork_world_branch_reducer";
 import IngestRowsReducer from "./ingest_rows_reducer";
 import JoinSessionReducer from "./join_session_reducer";
 import LeaveSessionReducer from "./leave_session_reducer";
+import PauseAllClocksReducer from "./pause_all_clocks_reducer";
 import RebuildAclReducer from "./rebuild_acl_reducer";
 import RecordConceptReducer from "./record_concept_reducer";
 import RedoEventReducer from "./redo_event_reducer";
@@ -977,6 +978,7 @@ const reducersSchema = __reducers(
   __reducerSchema("ingest_rows", IngestRowsReducer),
   __reducerSchema("join_session", JoinSessionReducer),
   __reducerSchema("leave_session", LeaveSessionReducer),
+  __reducerSchema("pause_all_clocks", PauseAllClocksReducer),
   __reducerSchema("rebuild_acl", RebuildAclReducer),
   __reducerSchema("record_concept", RecordConceptReducer),
   __reducerSchema("redo_event", RedoEventReducer),
