@@ -71,6 +71,16 @@ export function ClockBar() {
   );
 }
 
+/** Entering a civilisation by any route unlocks it on the branch (dock, rail, follow, jump, zoom). */
+export function useCivCapabilitySync() {
+  const stop = useUi((s) => s.stop);
+  const branchId = useWorld((s) => s.branchId);
+  const role = useWorld((s) => s.role);
+  useEffect(() => {
+    void useWorld.getState().ensureCivCapability(STOP_BY_ID[stop].level);
+  }, [stop, branchId, role]);
+}
+
 /** Report this viewer's stop/selection to presence (followers mirror the presenter). */
 export function usePresenceReporter() {
   const stop = useUi((s) => s.stop);

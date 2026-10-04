@@ -185,6 +185,8 @@ interface WorldState {
   displayName: string;
   setDisplayName: (name: string) => void;
   reportPose: (stop: string, position: [number, number, number], target: [number, number, number]) => void;
+  /** Raise the branch capability to the civilisation the user is in (any route: dock, rail, follow, jump). */
+  ensureCivCapability: (level: LevelId | null) => Promise<void>;
   branchId: string;
   branches: BranchInfo[];
   interventions: Intervention[];
@@ -290,6 +292,8 @@ let refreshTimer: ReturnType<typeof setTimeout> | null = null;
 let presenceTimer: ReturnType<typeof setTimeout> | null = null;
 let offlineClock: ReturnType<typeof setInterval> | null = null;
 const lastRevision = new Map<string, number>();
+/** In-flight capability raise; commands wait for it so they don't race the revision. */
+let capsRaise: Promise<void> = Promise.resolve();
 
 export const useWorld = create<WorldState>((set, get) => {
   /* ------------------------------------------------------------ derivations */
@@ -576,6 +580,20 @@ export const useWorld = create<WorldState>((set, get) => {
       get().reportPresence(useUi.getState().stop, useUi.getState().selection?.id ?? '');
     },
 
+    ensureCivCapability: (level) => {
+      if (!level || level === 'b5') return Promise.resolve();
+      const { capabilities: caps, role } = get();
+      if (role === 'viewer') return Promise.resolve();
+      const n = Number(level[1]);
+      const needK = level[0] === 'k' && caps.kardashevLevel < n ? (n as 1 | 2 | 3) : undefined;
+      const needB = level[0] === 'b' && caps.barrowLevel < n ? (n as 2 | 4 | 6) : undefined;
+      if (!needK && !needB) return capsRaise;
+      capsRaise = capsRaise
+        .then(() => get().setCapabilities({ ...(needK ? { kardashevLevel: needK } : {}), ...(needB ? { barrowLevel: needB } : {}) }))
+        .then(() => undefined, () => undefined);
+      return capsRaise;
+    },
+
     reportPose: (stop, position, target) => {
       const { conn, sessionId, mode, identityHex } = get();
       if (!conn || mode === 'offline' || !sessionId) return;
@@ -697,13 +715,14 @@ export const useWorld = create<WorldState>((set, get) => {
       // Capability is never raised implicitly: what a civilisation can build is
       // enforced by the module (reach, energy budget, manipulation depth).
       const k = interventionKind(kind);
+      await capsRaise;
       const r = await get().submit('create_intervention', { kind, params, ...(opts.label ? { label: opts.label } : {}) }, opts);
       // Time-dependent scenarios start playing so the expansion is visible immediately.
       if (r.status === 'applied' && k && LEVELS[k.level].timeDependent && !get().clock.running) void get().clockControl('play', 0, opts);
       return r;
     },
 
-    updateIntervention: (id, params, opts = {}) => get().submit('update_intervention', { id, params, ...(opts.label ? { label: opts.label } : {}) }, { ...opts, targetId: id }),
+    updateIntervention: async (id, params, opts = {}) => (await capsRaise, get().submit('update_intervention', { id, params, ...(opts.label ? { label: opts.label } : {}) }, { ...opts, targetId: id })),
     removeIntervention: (id, opts = {}) => get().submit('remove_intervention', { id }, { ...opts, targetId: id }),
     setAssumption: (key, value, opts = {}) => get().submit('set_assumption', { key, value }, { ...opts, targetId: key }),
     setCapabilities: (caps, opts = {}) => get().submit('set_capabilities', { capabilities: { ...get().capabilities, ...caps } }, opts),

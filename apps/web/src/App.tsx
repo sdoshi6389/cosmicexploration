@@ -3,7 +3,7 @@ import { useScience } from './state/science';
 import { Stage } from './three/Stage';
 import { CapabilityDock } from './ui/CapabilityDock';
 import { CivHud } from './ui/CivHud';
-import { ClockBar, usePresenceReporter } from './ui/ClockBar';
+import { ClockBar, useCivCapabilitySync, usePresenceReporter } from './ui/ClockBar';
 import { CommandDeck } from './ui/CommandDeck';
 import { Loader } from './ui/Loader';
 import { MissionConsole } from './ui/MissionConsole';
@@ -21,6 +21,7 @@ export default function App() {
   }, [boot]);
   useJourneyKeys();
   usePresenceReporter();
+  useCivCapabilitySync();
   const ready = phase === 'ready';
   return (
     <div style={{ position: 'fixed', inset: 0, overflow: 'hidden' }}>

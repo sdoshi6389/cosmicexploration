@@ -42,6 +42,19 @@ check('Bob joins the same world via invite link', await until(bob, (sid) => wind
 check('Bob is an editor', (await S(bob, () => window.__cosmos.useWorld.getState().role)) === 'editor');
 check('Alice sees Bob online', await until(alice, () => window.__cosmos.useWorld.getState().members.some((m) => m.displayName === 'Bob' && m.online)));
 
+// Reproduce the reported bug: fresh K1 world, Alice presents and walks to the galaxy via the
+// scale rail (not the dock), Bob follows — Bob must be able to build K3 there.
+await S(alice, () => window.__cosmos.useWorld.getState().setPresenter(true));
+await until(bob, () => Boolean(window.__cosmos.useWorld.getState().presenterHex));
+await S(bob, () => window.__cosmos.useWorld.getState().setFollowing(true));
+await S(alice, () => window.__cosmos.useUi.getState().goTo('galaxy'));
+check('Bob follows Alice into the Milky Way', await until(bob, () => window.__cosmos.useUi.getState().stop === 'galaxy', null, 25000));
+await wait(2500);
+const exp = await S(bob, () => window.__cosmos.executeTool('create_intervention', { kind: 'k3.expansion', params: { speed_c: 0.2, buildSwarms: true } }, 'test'));
+check('Bob (following) can start a galactic expansion — branch unlocked K3 by being there', exp.ok === true, exp.ok ? '' : String(exp.error ?? exp.reason).slice(0, 160));
+await S(bob, () => window.__cosmos.useWorld.getState().setFollowing(false));
+await S(alice, () => window.__cosmos.useWorld.getState().setPresenter(false));
+
 // Both go to the Solar System; each sees the other's avatar there.
 await S(alice, () => window.__cosmos.executeTool('switch_civilisation', { civilisation: 'K2' }, 'test'));
 await S(bob, () => window.__cosmos.useUi.getState().goTo('solar'));

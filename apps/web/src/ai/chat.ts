@@ -54,11 +54,16 @@ async function grokLoop(): Promise<boolean> {
           tools,
         }),
       });
-    } catch {
+    } catch (e) {
+      ui.say('system', `Grok unreachable (${e instanceof Error ? e.message : 'network error'}) — using the offline command parser.`);
       return false;
     }
     if (!res.ok) {
-      if (round === 0) return false;
+      if (round === 0) {
+        const detail = (await res.json().catch(() => ({}))) as { detail?: string };
+        ui.say('system', `Grok request failed (HTTP ${res.status}${detail.detail ? `: ${detail.detail}` : ''}) — using the offline command parser. Check /api/health and the XAI_API_KEY environment variable.`);
+        return false;
+      }
       ui.say('system', `Grok request failed (${res.status}).`);
       return true;
     }
