@@ -1,12 +1,13 @@
-backend/
-data/
-scripts/
-assets/
-tests/
-test-results/
-spacetimedb/
-docs/
-_stdb_tmp/
+# Anchored to the repo root (a bare "data/" would also drop apps/web/src/data).
+/backend/
+/data/
+/scripts/
+/assets/
+/tests/
+/test-results/
+/spacetimedb/
+/docs/
+/_stdb_tmp/
 **/.venv/
 **/__pycache__/
 *.log
