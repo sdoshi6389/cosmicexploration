@@ -1,0 +1,48 @@
+"""Named-star fallback used only when Gaia/VizieR/SIMBAD are unreachable.
+
+Parallaxes are published Hipparcos / Gaia-summary values, not a live TAP extract.
+evidenceKind is set by fetch_gaia.build_star from the source label.
+"""
+
+CURATED_STARS = [
+    {"id": "star.sol", "name": "Sol", "ra_deg": 0.0, "dec_deg": 0.0, "parallax_mas": 1e9, "parallax_over_error": 1e6, "g_mag": -26.7, "bp_rp": 0.82, "teff_k": 5772},
+    {"id": "star.proxima", "name": "Proxima Centauri", "ra_deg": 217.429, "dec_deg": -62.679, "parallax_mas": 768.07, "parallax_over_error": 200, "g_mag": 10.2, "bp_rp": 3.8, "teff_k": 3042},
+    {"id": "star.alpha_cen_a", "name": "Alpha Centauri A", "ra_deg": 219.874, "dec_deg": -60.832, "parallax_mas": 747.17, "parallax_over_error": 400, "g_mag": -0.01, "bp_rp": 0.88, "teff_k": 5790},
+    {"id": "star.barnard", "name": "Barnard's Star", "ra_deg": 269.452, "dec_deg": 4.693, "parallax_mas": 546.98, "parallax_over_error": 300, "g_mag": 9.51, "bp_rp": 2.5, "teff_k": 3134},
+    {"id": "star.sirius", "name": "Sirius A", "ra_deg": 101.287, "dec_deg": -16.716, "parallax_mas": 379.21, "parallax_over_error": 500, "g_mag": -1.46, "bp_rp": 0.0, "teff_k": 9940},
+    {"id": "star.epsilon_eri", "name": "Epsilon Eridani", "ra_deg": 49.321, "dec_deg": -9.458, "parallax_mas": 310.74, "parallax_over_error": 200, "g_mag": 3.73, "bp_rp": 0.88, "teff_k": 5084},
+    {"id": "star.61_cyg_a", "name": "61 Cygni A", "ra_deg": 316.730, "dec_deg": 38.750, "parallax_mas": 286.0, "parallax_over_error": 150, "g_mag": 5.21, "bp_rp": 1.1, "teff_k": 4370},
+    {"id": "star.procyon", "name": "Procyon", "ra_deg": 114.826, "dec_deg": 5.225, "parallax_mas": 284.56, "parallax_over_error": 300, "g_mag": 0.34, "bp_rp": 0.42, "teff_k": 6530},
+    {"id": "star.altair", "name": "Altair", "ra_deg": 297.696, "dec_deg": 8.868, "parallax_mas": 194.95, "parallax_over_error": 250, "g_mag": 0.76, "bp_rp": 0.22, "teff_k": 7550},
+    {"id": "star.vega", "name": "Vega", "ra_deg": 279.234, "dec_deg": 38.783, "parallax_mas": 130.23, "parallax_over_error": 400, "g_mag": 0.03, "bp_rp": 0.0, "teff_k": 9602},
+    {"id": "star.fomalhaut", "name": "Fomalhaut", "ra_deg": 344.413, "dec_deg": -29.622, "parallax_mas": 129.81, "parallax_over_error": 200, "g_mag": 1.16, "bp_rp": 0.09, "teff_k": 8590},
+    {"id": "star.denebola", "name": "Denebola", "ra_deg": 177.265, "dec_deg": 14.572, "parallax_mas": 90.16, "parallax_over_error": 120, "g_mag": 2.14, "bp_rp": 0.09, "teff_k": 8500},
+    {"id": "star.pollux", "name": "Pollux", "ra_deg": 116.329, "dec_deg": 28.026, "parallax_mas": 96.54, "parallax_over_error": 180, "g_mag": 1.14, "bp_rp": 1.0, "teff_k": 4666},
+    {"id": "star.arcturus", "name": "Arcturus", "ra_deg": 213.915, "dec_deg": 19.182, "parallax_mas": 88.83, "parallax_over_error": 250, "g_mag": -0.05, "bp_rp": 1.23, "teff_k": 4286},
+    {"id": "star.capella", "name": "Capella", "ra_deg": 79.172, "dec_deg": 45.998, "parallax_mas": 76.2, "parallax_over_error": 150, "g_mag": 0.08, "bp_rp": 0.8, "teff_k": 4970},
+    {"id": "star.castor", "name": "Castor", "ra_deg": 113.650, "dec_deg": 31.888, "parallax_mas": 64.12, "parallax_over_error": 80, "g_mag": 1.58, "bp_rp": 0.03, "teff_k": 10286},
+    {"id": "star.aldebaran", "name": "Aldebaran", "ra_deg": 68.980, "dec_deg": 16.509, "parallax_mas": 48.94, "parallax_over_error": 120, "g_mag": 0.85, "bp_rp": 1.54, "teff_k": 3900},
+    {"id": "star.spica", "name": "Spica", "ra_deg": 201.298, "dec_deg": -11.161, "parallax_mas": 13.06, "parallax_over_error": 40, "g_mag": 0.97, "bp_rp": -0.24, "teff_k": 22400},
+    {"id": "star.antares", "name": "Antares", "ra_deg": 247.352, "dec_deg": -26.432, "parallax_mas": 5.89, "parallax_over_error": 15, "g_mag": 0.96, "bp_rp": 1.83, "teff_k": 3660},
+    {"id": "star.betelgeuse", "name": "Betelgeuse", "ra_deg": 88.793, "dec_deg": 7.407, "parallax_mas": 5.95, "parallax_over_error": 12, "g_mag": 0.42, "bp_rp": 1.85, "teff_k": 3600},
+    {"id": "star.rigel", "name": "Rigel", "ra_deg": 78.634, "dec_deg": -8.202, "parallax_mas": 3.78, "parallax_over_error": 11, "g_mag": 0.13, "bp_rp": -0.03, "teff_k": 12100},
+    {"id": "star.deneb", "name": "Deneb", "ra_deg": 310.358, "dec_deg": 45.280, "parallax_mas": 2.31, "parallax_over_error": 11, "g_mag": 1.25, "bp_rp": 0.09, "teff_k": 8525},
+    {"id": "star.canopus", "name": "Canopus", "ra_deg": 95.988, "dec_deg": -52.696, "parallax_mas": 10.55, "parallax_over_error": 30, "g_mag": -0.74, "bp_rp": 0.15, "teff_k": 7350},
+    {"id": "star.achernar", "name": "Achernar", "ra_deg": 24.429, "dec_deg": -57.237, "parallax_mas": 23.39, "parallax_over_error": 80, "g_mag": 0.46, "bp_rp": -0.16, "teff_k": 15000},
+    {"id": "star.hadar", "name": "Hadar", "ra_deg": 210.956, "dec_deg": -60.373, "parallax_mas": 8.32, "parallax_over_error": 20, "g_mag": 0.61, "bp_rp": -0.22, "teff_k": 25000},
+    {"id": "star.acrux", "name": "Acrux", "ra_deg": 186.650, "dec_deg": -63.099, "parallax_mas": 10.13, "parallax_over_error": 25, "g_mag": 0.76, "bp_rp": -0.24, "teff_k": 28000},
+    {"id": "star.altais", "name": "Gamma Draconis", "ra_deg": 268.382, "dec_deg": 51.489, "parallax_mas": 21.14, "parallax_over_error": 50, "g_mag": 2.23, "bp_rp": 1.52, "teff_k": 3985},
+    {"id": "star.regulus", "name": "Regulus", "ra_deg": 152.093, "dec_deg": 11.967, "parallax_mas": 41.13, "parallax_over_error": 90, "g_mag": 1.35, "bp_rp": -0.11, "teff_k": 12460},
+    {"id": "star.bellatrix", "name": "Bellatrix", "ra_deg": 81.283, "dec_deg": 6.350, "parallax_mas": 12.92, "parallax_over_error": 40, "g_mag": 1.64, "bp_rp": -0.22, "teff_k": 22000},
+    {"id": "star.alnair", "name": "Alnair", "ra_deg": 332.058, "dec_deg": -46.961, "parallax_mas": 32.29, "parallax_over_error": 70, "g_mag": 1.74, "bp_rp": -0.07, "teff_k": 15500},
+    {"id": "star.alioth", "name": "Alioth", "ra_deg": 193.507, "dec_deg": 55.960, "parallax_mas": 39.51, "parallax_over_error": 80, "g_mag": 1.77, "bp_rp": -0.02, "teff_k": 9020},
+    {"id": "star.dubhe", "name": "Dubhe", "ra_deg": 165.460, "dec_deg": 61.751, "parallax_mas": 26.54, "parallax_over_error": 60, "g_mag": 1.79, "bp_rp": 1.07, "teff_k": 4660},
+    {"id": "star.mirfak", "name": "Mirfak", "ra_deg": 51.081, "dec_deg": 49.861, "parallax_mas": 6.44, "parallax_over_error": 18, "g_mag": 1.79, "bp_rp": 0.48, "teff_k": 6350},
+    {"id": "star.wezen", "name": "Wezen", "ra_deg": 107.098, "dec_deg": -26.393, "parallax_mas": 2.03, "parallax_over_error": 11, "g_mag": 1.84, "bp_rp": 0.67, "teff_k": 5800},
+    {"id": "star.kaus", "name": "Kaus Australis", "ra_deg": 276.043, "dec_deg": -34.385, "parallax_mas": 22.76, "parallax_over_error": 50, "g_mag": 1.85, "bp_rp": -0.03, "teff_k": 9960},
+    {"id": "star.alnilam", "name": "Alnilam", "ra_deg": 84.053, "dec_deg": -1.202, "parallax_mas": 1.65, "parallax_over_error": 11, "g_mag": 1.69, "bp_rp": -0.18, "teff_k": 27000},
+    {"id": "star.alnitak", "name": "Alnitak", "ra_deg": 85.190, "dec_deg": -1.943, "parallax_mas": 4.43, "parallax_over_error": 12, "g_mag": 1.74, "bp_rp": -0.20, "teff_k": 29500},
+    {"id": "star.mintaka", "name": "Mintaka", "ra_deg": 83.002, "dec_deg": -0.299, "parallax_mas": 4.71, "parallax_over_error": 12, "g_mag": 2.23, "bp_rp": -0.22, "teff_k": 29500},
+    {"id": "star.trappist", "name": "TRAPPIST-1", "ra_deg": 346.622, "dec_deg": -5.041, "parallax_mas": 80.45, "parallax_over_error": 90, "g_mag": 18.8, "bp_rp": 3.9, "teff_k": 2566},
+    {"id": "star.kepler452", "name": "Kepler-452", "ra_deg": 296.004, "dec_deg": 44.278, "parallax_mas": 2.25, "parallax_over_error": 12, "g_mag": 13.4, "bp_rp": 0.8, "teff_k": 5757},
+]

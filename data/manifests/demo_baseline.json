@@ -1,0 +1,20 @@
+{
+  "id": "manifest.demo_baseline.v1",
+  "sourceUrls": [
+    "C:\\Users\\14084\\Desktop\\UMich Hackathon\\scripts\\ingest\\build_demo_pack.py"
+  ],
+  "release": "1.0.0",
+  "query": {
+    "assembler": "build_demo_pack.py"
+  },
+  "retrievedAt": "2026-10-03T20:19:30Z",
+  "checksum": "sha256:f7956be03aeef5b77d15ec5dd1af7cdfa154f5230ace6d321245c642d5044020",
+  "license": "COSMOS demo bundle",
+  "attribution": "COSMOS ingest",
+  "coverage": "Index of all level packs",
+  "units": "mixed",
+  "frame": "mixed",
+  "transformationVersion": "1.0.0",
+  "validationStatus": "validated",
+  "normalizedPath": "data/normalized/demo_baseline.json"
+}

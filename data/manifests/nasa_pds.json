@@ -1,0 +1,19 @@
+{
+  "id": "nasa_pds",
+  "sourceName": "NASA Planetary Data System (Geosciences Node)",
+  "category": "solar_system",
+  "sourceUrls": "https://pds-geosciences.wustl.edu/mgs/mgs-m-mola-5-megdr-l3-v1/mgsl_300x/meg004/megt90n000cb.img https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/lola_gdr/cylindrical/img/ldem_4.img https://www.solarsystemscope.com/textures/download",
+  "release": "MGS-M-MOLA-5-MEGDR-L3-V1.0; LRO-L-LOLA-4-GDR-V1.0",
+  "query": "MEGT90N000CB (4 px/deg), LDEM_4 (4 px/deg)",
+  "retrievedAt": "2026-10-03T23:42:19Z",
+  "checksum": "megt90n000cb.img=sha256:25f16fb7aaf857898dcf98bc4f841341a24f8b9f7e98453ca083bc45d897ca2c;ldem_4.img=sha256:c04632eba6449af49e3108ed7c25b3b1c450600abd3690df4fc815853a1af476",
+  "license": "PDS: public domain; colour maps CC BY 4.0 (illustrative)",
+  "attribution": "NASA PDS Geosciences Node; MGS MOLA and LRO LOLA science teams; Solar System Scope",
+  "coverage": "2 PDS elevation products, 12 illustrative maps",
+  "units": "elevation normalised to 8-bit for rendering; source metres recorded in projection note",
+  "frame": "body-fixed planetocentric, simple cylindrical",
+  "validationStatus": "ok",
+  "rowCount": 14,
+  "tables": "planet_texture:14",
+  "note": "Bodies without a colour map render with labelled procedural shading."
+}

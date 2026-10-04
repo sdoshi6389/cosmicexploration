@@ -1,0 +1,19 @@
+{
+  "id": "nasa_heasarc",
+  "sourceName": "NASA HEASARC (LMXBCAT, HMXBCAT)",
+  "category": "stars",
+  "sourceUrls": "https://heasarc.gsfc.nasa.gov/xamin/vo/tap",
+  "release": "Liu, van Paradijs & van den Heuvel 2006/2007 catalogues",
+  "query": "SELECT * FROM lmxbcat; SELECT * FROM hmxbcat",
+  "retrievedAt": "2026-10-03T23:46:53Z",
+  "checksum": "lmxbcat=sha256:b05f64ff6c10f5fca5f03577c0f8201b0f0972de6c1f2e8bdd85437a3c5a85bb;hmxbcat=sha256:0cb02bb1b7c147f6eff0a0ffb019d2e93ed2a448278e06fc1032861cb7875c03",
+  "license": "Public (NASA HEASARC)",
+  "attribution": "NASA High Energy Astrophysics Science Archive Research Center",
+  "coverage": "301 X-ray binaries",
+  "units": "deg, kpc, days",
+  "frame": "ICRS + galactic",
+  "validationStatus": "ok",
+  "rowCount": 301,
+  "tables": "xray_binary:301",
+  "note": "X-ray source ≠ identified black hole; compact-object labels follow catalogue codes only."
+}

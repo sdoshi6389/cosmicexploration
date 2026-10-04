@@ -1,0 +1,48 @@
+{
+  "schema": "cosmos.level.k1.v1",
+  "level": "K1",
+  "entityId": "body.earth",
+  "name": "Earth",
+  "horizonsId": "399",
+  "assumptions": {
+    "albedo": {
+      "value": 0.306,
+      "evidence": {
+        "kind": "assumed",
+        "note": "CMIP/Earth-energy-budget style demo default"
+      }
+    },
+    "emissivity": {
+      "value": 0.96,
+      "evidence": {
+        "kind": "assumed"
+      }
+    }
+  },
+  "baselinePowerW": {
+    "P0": 18000000000000.0,
+    "label": "global primary energy consumption (order-of-magnitude)",
+    "evidence": {
+      "kind": "assumed",
+      "note": "~1.8×10¹³ W ≈ 580 EJ/yr scale; editable in scenarios"
+    }
+  },
+  "stateVector": {
+    "positionM": [
+      -26730662298.92559,
+      132724680968.5359,
+      57534860582.672005
+    ],
+    "velocityMps": [
+      -29789.262242683828,
+      -5073.188593453443,
+      -2199.486142320485
+    ],
+    "originId": "ssb",
+    "frame": "ICRF",
+    "epoch": "2025-01-01T00:00:00.000",
+    "timeScale": "TDB",
+    "aberrationCorrection": "NONE"
+  },
+  "evidenceNote": "Horizons state when fetch_horizons.py has been run"
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "gene.hbb",
+    "geneSymbol": "HBB",
+    "transcriptId": "NM_000518.5",
+    "cdsSequence": "ATGGTGCATCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCC",
+    "variantLabel": "HbS / sickle cell",
+    "rsId": "rs334",
+    "structureId": "4HHB",
+    "evidenceKind": "observed",
+    "sourceId": "ncbi-clinvar"
+  },
+  {
+    "id": "gene.hba1",
+    "geneSymbol": "HBA1",
+    "transcriptId": "NM_000558.5",
+    "cdsSequence": "ATGGTGCTGTCTCCTGCCGACAAGACCAACGTCAAGGCCGCC",
+    "variantLabel": "wild-type alpha globin",
+    "rsId": "",
+    "structureId": "4HHB",
+    "evidenceKind": "observed",
+    "sourceId": "ncbi"
+  },
+  {
+    "id": "gene.cftr",
+    "geneSymbol": "CFTR",
+    "transcriptId": "NM_000492.4",
+    "cdsSequence": "ATGCAGAGGTCGCCTCTGGAAAAGGCCAGCGTTGTCTCCAAA",
+    "variantLabel": "ΔF508 context",
+    "rsId": "rs113993960",
+    "structureId": "5UAK",
+    "evidenceKind": "observed",
+    "sourceId": "ncbi-clinvar"
+  },
+  {
+    "id": "gene.brca1",
+    "geneSymbol": "BRCA1",
+    "transcriptId": "NM_007294.4",
+    "cdsSequence": "ATGGATTTATCTGCTCTTCGCGTTGAAGAAGTACAAAATGTC",
+    "variantLabel": "pathogenic cluster context",
+    "rsId": "rs80357906",
+    "structureId": "1JM7",
+    "evidenceKind": "observed",
+    "sourceId": "ncbi-clinvar"
+  },
+  {
+    "id": "gene.tp53",
+    "geneSymbol": "TP53",
+    "transcriptId": "NM_000546.6",
+    "cdsSequence": "ATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTG",
+    "variantLabel": "R175H context",
+    "rsId": "rs28934578",
+    "structureId": "2OCJ",
+    "evidenceKind": "observed",
+    "sourceId": "ncbi-clinvar"
+  },
+  {
+    "id": "gene.cftr2",
+    "geneSymbol": "G6PD",
+    "transcriptId": "NM_001042351.3",
+    "cdsSequence": "ATGGCAGAGCAGGTGGCCCTGAGCCGGACCCAGGTGTGCGGC",
+    "variantLabel": "A- variant context",
+    "rsId": "rs1050828",
+    "structureId": "2BHL",
+    "evidenceKind": "observed",
+    "sourceId": "ncbi-clinvar"
+  }
+]

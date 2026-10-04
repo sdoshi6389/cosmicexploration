@@ -1,0 +1,410 @@
+{
+  "schema": "cosmos.level.k3.v1",
+  "level": "K3",
+  "galaxyContextId": "catalog.milky_way",
+  "sampleMode": "curated_fallback",
+  "gaiaError": "The read operation timed out",
+  "starCount": 19,
+  "stars": [
+    {
+      "id": "star.sirius",
+      "name": "Sirius A",
+      "raDeg": 101.287,
+      "decDeg": -16.716,
+      "distanceLy": 8.6,
+      "positionM": [
+        -1.5251587291821848e+16,
+        7.641696925356453e+16,
+        -2.340206909384982e+16
+      ],
+      "luminosityW": 9.7e+27,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.canopus",
+      "name": "Canopus",
+      "raDeg": 95.988,
+      "decDeg": -52.696,
+      "distanceLy": 310,
+      "positionM": [
+        -1.8542092919917875e+17,
+        1.7677236466916388e+18,
+        -2.3328615803841055e+18
+      ],
+      "luminosityW": 1.3e+28,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.arcturus",
+      "name": "Arcturus",
+      "raDeg": 213.915,
+      "decDeg": 19.182,
+      "distanceLy": 37,
+      "positionM": [
+        -2.7436397823369414e+17,
+        -1.8446922266546566e+17,
+        1.1501493289311155e+17
+      ],
+      "luminosityW": 1.1e+28,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.vega",
+      "name": "Vega",
+      "raDeg": 279.235,
+      "decDeg": 38.784,
+      "distanceLy": 25,
+      "positionM": [
+        2.9588311413604468e+16,
+        -1.8197932482409398e+17,
+        1.4815176453900333e+17
+      ],
+      "luminosityW": 4e+27,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.capella",
+      "name": "Capella",
+      "raDeg": 79.172,
+      "decDeg": 45.998,
+      "distanceLy": 42,
+      "positionM": [
+        5.1855917195840056e+16,
+        2.7111834125808803e+17,
+        2.858205235129585e+17
+      ],
+      "luminosityW": 1.2e+28,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.rigel",
+      "name": "Rigel",
+      "raDeg": 78.634,
+      "decDeg": -8.202,
+      "distanceLy": 860,
+      "positionM": [
+        1.587050755842822e+18,
+        7.895071615215036e+18,
+        -1.1607426570694426e+18
+      ],
+      "luminosityW": 1.2e+29,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.procyon",
+      "name": "Procyon",
+      "raDeg": 114.825,
+      "decDeg": 5.225,
+      "distanceLy": 11.4,
+      "positionM": [
+        -4.509344252049344e+16,
+        9.747942458794568e+16,
+        9821799556976956.0
+      ],
+      "luminosityW": 6.9e+27,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.betelgeuse",
+      "name": "Betelgeuse",
+      "raDeg": 88.793,
+      "decDeg": 7.407,
+      "distanceLy": 640,
+      "positionM": [
+        1.2647886188879504e+17,
+        6.003009914989336e+18,
+        7.805738467825258e+17
+      ],
+      "luminosityW": 1.6e+29,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.altair",
+      "name": "Altair",
+      "raDeg": 297.696,
+      "decDeg": 8.868,
+      "distanceLy": 16.7,
+      "positionM": [
+        7.25547761046755e+16,
+        -1.3821992888919714e+17,
+        2.435616155764174e+16
+      ],
+      "luminosityW": 3.6e+27,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.aldebaran",
+      "name": "Aldebaran",
+      "raDeg": 68.98,
+      "decDeg": 16.509,
+      "distanceLy": 65,
+      "positionM": [
+        2.1148455627426947e+17,
+        5.50361812632101e+17,
+        1.7474713644261392e+17
+      ],
+      "luminosityW": 1.6e+28,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.spica",
+      "name": "Spica",
+      "raDeg": 201.298,
+      "decDeg": -11.161,
+      "distanceLy": 250,
+      "positionM": [
+        -2.1619725623039916e+18,
+        -8.428309414770394e+17,
+        -4.578203371518386e+17
+      ],
+      "luminosityW": 1.1e+28,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.antares",
+      "name": "Antares",
+      "raDeg": 247.352,
+      "decDeg": -26.432,
+      "distanceLy": 550,
+      "positionM": [
+        -1.7942099797796237e+18,
+        -4.300155093979183e+18,
+        -2.3162181657427717e+18
+      ],
+      "luminosityW": 7.5e+28,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.pollux",
+      "name": "Pollux",
+      "raDeg": 116.329,
+      "decDeg": 28.026,
+      "distanceLy": 33.8,
+      "positionM": [
+        -1.2519570954877715e+17,
+        2.5299181075416397e+17,
+        1.5025229201121578e+17
+      ],
+      "luminosityW": 3.2e+28,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.fomalhaut",
+      "name": "Fomalhaut",
+      "raDeg": 344.413,
+      "decDeg": -29.622,
+      "distanceLy": 25,
+      "positionM": [
+        1.9804507856402192e+17,
+        -5.5246744618304984e+16,
+        -1.1690522758804248e+17
+      ],
+      "luminosityW": 3.6e+27,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.deneb",
+      "name": "Deneb",
+      "raDeg": 310.358,
+      "decDeg": 45.28,
+      "distanceLy": 2600,
+      "positionM": [
+        1.1208081105676798e+19,
+        -1.3189026638032806e+19,
+        1.747813321655399e+19
+      ],
+      "luminosityW": 1.9e+29,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.regulus",
+      "name": "Regulus",
+      "raDeg": 152.092,
+      "decDeg": 11.967,
+      "distanceLy": 79,
+      "positionM": [
+        -6.461215758460065e+17,
+        3.422192797800242e+17,
+        1.5497163192358605e+17
+      ],
+      "luminosityW": 2.9e+28,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.mira",
+      "name": "Mira",
+      "raDeg": 34.837,
+      "decDeg": -2.978,
+      "distanceLy": 300,
+      "positionM": [
+        2.3264089581775334e+18,
+        1.6191253773364188e+18,
+        -1.474525975024652e+17
+      ],
+      "luminosityW": 5e+28,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.polaris",
+      "name": "Polaris",
+      "raDeg": 37.954,
+      "decDeg": 89.264,
+      "distanceLy": 433,
+      "positionM": [
+        4.14915956778996e+16,
+        3.2363175718508304e+16,
+        4.096158317770718e+18
+      ],
+      "luminosityW": 4.7e+28,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    },
+    {
+      "id": "star.sun_proxy",
+      "name": "Sun (local)",
+      "raDeg": 0,
+      "decDeg": 0,
+      "distanceLy": 149600000000.0,
+      "positionM": [
+        1.4153252786980876e+27,
+        0.0,
+        0.0
+      ],
+      "luminosityW": 3.826e+26,
+      "evidence": {
+        "kind": "assumed",
+        "sourceId": "curated_catalog",
+        "method": "named_star_approximate_icrs",
+        "assumptions": [
+          "Approximate RA/Dec and distance for demo navigation; not a full Gaia ingest."
+        ]
+      }
+    }
+  ],
+  "coverageNote": "TOP 100 bright nearby Gaia DR3 sources, or curated named-star fallback"
+}

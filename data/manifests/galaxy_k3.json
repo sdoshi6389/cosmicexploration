@@ -1,0 +1,21 @@
+{
+  "id": "manifest.level.galaxy_k3.v1",
+  "sourceUrls": [
+    "curated_named_stars"
+  ],
+  "release": "curated-v1",
+  "query": {
+    "mode": "curated_fallback",
+    "adql": "named list"
+  },
+  "retrievedAt": "2026-10-03T20:19:29Z",
+  "checksum": "sha256:b1d4fd438827b6e56072df2b1a86df5afedc555f628c8ed9ed12b4a1cc1213db",
+  "license": "Gaia ESA — credit Gaia Collaboration; curated fallback is demo-only",
+  "attribution": "ESA Gaia DPAC / COSMOS curated fallback",
+  "coverage": "19 stars for K3 navigation sample",
+  "units": "m, W, deg",
+  "frame": "ICRS",
+  "transformationVersion": "1.0.0",
+  "validationStatus": "partial_assumed",
+  "normalizedPath": "data/normalized/galaxy_k3.json"
+}

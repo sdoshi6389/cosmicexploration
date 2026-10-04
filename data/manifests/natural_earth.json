@@ -1,0 +1,19 @@
+{
+  "id": "natural_earth",
+  "sourceName": "Natural Earth populated places",
+  "category": "earth",
+  "sourceUrls": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_populated_places_simple.geojson https://www.naturalearthdata.com/",
+  "release": "natural-earth-vector master (v5.x)",
+  "query": "ne_110m_populated_places_simple",
+  "retrievedAt": "2026-10-03T23:42:34Z",
+  "checksum": "sha256:0dbd25c9ad8bd797ddf164b067f563be5c16be2c002254eb594862377963f9dc",
+  "license": "Public domain (Natural Earth)",
+  "attribution": "Made with Natural Earth",
+  "coverage": "243 cities",
+  "units": "degrees, persons",
+  "frame": "WGS84",
+  "validationStatus": "ok",
+  "rowCount": 243,
+  "tables": "earth_city:243",
+  "note": ""
+}

@@ -1,0 +1,19 @@
+{
+  "id": "rcsb_pdb",
+  "sourceName": "RCSB Protein Data Bank",
+  "category": "biology",
+  "sourceUrls": "https://files.rcsb.org/download/4HHB.cif https://files.rcsb.org/download/2HBS.cif https://data.rcsb.org/rest/v1/core",
+  "release": "PDB archive (live)",
+  "query": "4HHB, 2HBS",
+  "retrievedAt": "2026-10-04T00:03:11Z",
+  "checksum": "4HHB=sha256:2d3ca1bf21ddff35af2e2bc5d331720f7bfc46a16c4829ea3ec1b41062d5f5a6;2HBS=sha256:e6991972885992e7f110833e2d491953a34e4c4b8a238804c09ec06b8ebf2ea2",
+  "license": "CC0 1.0 (PDB data)",
+  "attribution": "RCSB PDB; Fermi & Perutz 1984 (4HHB); Harrington et al. 1997 (2HBS)",
+  "coverage": "2 entries, 13662 atoms, 96 secondary-structure ranges",
+  "units": "Å (scientific storage converts to m only when needed)",
+  "frame": "crystallographic orthogonal frame per entry",
+  "validationStatus": "ok",
+  "rowCount": 13760,
+  "tables": "pdb_entry:2,pdb_atom:13662,pdb_secondary:96",
+  "note": "4HHB chain B residue 6 = GLU; 2HBS chain B residue 6 = VAL"
+}

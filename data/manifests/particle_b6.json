@@ -1,0 +1,24 @@
+{
+  "id": "manifest.level.particle_b6.v1",
+  "sourceUrls": [
+    "https://pdg.lbl.gov/"
+  ],
+  "release": "PDG 2024 summary values",
+  "query": {
+    "particles": [
+      "electron",
+      "positron",
+      "photon"
+    ]
+  },
+  "retrievedAt": "2026-10-03T20:19:29Z",
+  "checksum": "sha256:c3a5e7843e89660fddd10e115962819278be210d6a8bcc9b7d443031633802eb",
+  "license": "PDG — cite Particle Data Group",
+  "attribution": "Particle Data Group (LBL)",
+  "coverage": "Sandbox particle properties",
+  "units": "MeV, e",
+  "frame": "N/A",
+  "transformationVersion": "1.0.0",
+  "validationStatus": "validated",
+  "normalizedPath": "data/normalized/particle_b6.json"
+}

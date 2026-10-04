@@ -1,0 +1,614 @@
+{
+  "schema": "cosmos.horizons.solar_system.v1",
+  "retrievedAt": "2026-10-03T20:18:57Z",
+  "epochPin": {
+    "start": "2025-01-01",
+    "stop": "2025-01-02",
+    "step": "1 d"
+  },
+  "sourceApi": "https://ssd.jpl.nasa.gov/api/horizons.api",
+  "bodies": {
+    "sun": {
+      "horizonsId": "10",
+      "name": "Sun",
+      "command": "10",
+      "epoch": "A.D. 2025-Jan-01 00:00:00.0000",
+      "jdTdb": "2460676.500000000",
+      "frame": "ICRF",
+      "center": "500@10",
+      "refPlane": "FRAME",
+      "vecCorr": "NONE",
+      "aberrationCorrection": "NONE",
+      "timeScale": "TDB",
+      "stateVector": {
+        "positionM": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "velocityMps": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "originId": "ssb",
+        "frame": "ICRF",
+        "epoch": "2025-01-01T00:00:00.000",
+        "timeScale": "TDB",
+        "aberrationCorrection": "NONE"
+      },
+      "samples": [
+        {
+          "calendarTime": "A.D. 2025-Jan-01 00:00:00.0000",
+          "jdTdb": "2460676.500000000",
+          "positionKm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "velocityKmS": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "positionM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "velocityMps": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "calendarTime": "A.D. 2025-Jan-02 00:00:00.0000",
+          "jdTdb": "2460677.500000000",
+          "positionKm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "velocityKmS": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "positionM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "velocityMps": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "units": {
+        "positionRaw": "km",
+        "velocityRaw": "km/s",
+        "positionNormalized": "m",
+        "velocityNormalized": "m/s"
+      }
+    },
+    "mercury": {
+      "horizonsId": "199",
+      "name": "Mercury",
+      "command": "199",
+      "epoch": "A.D. 2025-Jan-01 00:00:00.0000",
+      "jdTdb": "2460676.500000000",
+      "frame": "ICRF",
+      "center": "500@10",
+      "refPlane": "FRAME",
+      "vecCorr": "NONE",
+      "aberrationCorrection": "NONE",
+      "timeScale": "TDB",
+      "stateVector": {
+        "positionM": [
+          -57939705391.14399,
+          -23524646813.41705,
+          -6561849143.927645
+        ],
+        "velocityMps": [
+          8699.584014708891,
+          -37596.895611280015,
+          -20985.98163261675
+        ],
+        "originId": "ssb",
+        "frame": "ICRF",
+        "epoch": "2025-01-01T00:00:00.000",
+        "timeScale": "TDB",
+        "aberrationCorrection": "NONE"
+      },
+      "samples": [
+        {
+          "calendarTime": "A.D. 2025-Jan-01 00:00:00.0000",
+          "jdTdb": "2460676.500000000",
+          "positionKm": [
+            -57939705.39114399,
+            -23524646.81341705,
+            -6561849.143927645
+          ],
+          "velocityKmS": [
+            8.699584014708892,
+            -37.59689561128002,
+            -20.98598163261675
+          ],
+          "positionM": [
+            -57939705391.14399,
+            -23524646813.41705,
+            -6561849143.927645
+          ],
+          "velocityMps": [
+            8699.584014708891,
+            -37596.895611280015,
+            -20985.98163261675
+          ]
+        },
+        {
+          "calendarTime": "A.D. 2025-Jan-02 00:00:00.0000",
+          "jdTdb": "2460677.500000000",
+          "positionKm": [
+            -57074412.77854747,
+            -26724554.35664917,
+            -8360927.165841592
+          ],
+          "velocityKmS": [
+            11.30941183325601,
+            -36.45712336838113,
+            -20.64760396597672
+          ],
+          "positionM": [
+            -57074412778.54747,
+            -26724554356.64917,
+            -8360927165.841592
+          ],
+          "velocityMps": [
+            11309.41183325601,
+            -36457.12336838113,
+            -20647.60396597672
+          ]
+        }
+      ],
+      "units": {
+        "positionRaw": "km",
+        "velocityRaw": "km/s",
+        "positionNormalized": "m",
+        "velocityNormalized": "m/s"
+      }
+    },
+    "venus": {
+      "horizonsId": "299",
+      "name": "Venus",
+      "command": "299",
+      "epoch": "A.D. 2025-Jan-01 00:00:00.0000",
+      "jdTdb": "2460676.500000000",
+      "frame": "ICRF",
+      "center": "500@10",
+      "refPlane": "FRAME",
+      "vecCorr": "NONE",
+      "aberrationCorrection": "NONE",
+      "timeScale": "TDB",
+      "stateVector": {
+        "positionM": [
+          67830481850.30287,
+          78263430489.35907,
+          30924437370.43684
+        ],
+        "velocityMps": [
+          -27367.88166661567,
+          19284.67431143011,
+          10408.934646830881
+        ],
+        "originId": "ssb",
+        "frame": "ICRF",
+        "epoch": "2025-01-01T00:00:00.000",
+        "timeScale": "TDB",
+        "aberrationCorrection": "NONE"
+      },
+      "samples": [
+        {
+          "calendarTime": "A.D. 2025-Jan-01 00:00:00.0000",
+          "jdTdb": "2460676.500000000",
+          "positionKm": [
+            67830481.85030288,
+            78263430.48935907,
+            30924437.37043684
+          ],
+          "velocityKmS": [
+            -27.36788166661567,
+            19.28467431143011,
+            10.40893464683088
+          ],
+          "positionM": [
+            67830481850.30287,
+            78263430489.35907,
+            30924437370.43684
+          ],
+          "velocityMps": [
+            -27367.88166661567,
+            19284.67431143011,
+            10408.934646830881
+          ]
+        },
+        {
+          "calendarTime": "A.D. 2025-Jan-02 00:00:00.0000",
+          "jdTdb": "2460677.500000000",
+          "positionKm": [
+            65439593.53103273,
+            79898702.87696451,
+            31811518.94495434
+          ],
+          "velocityKmS": [
+            -27.97319203220153,
+            18.5663107484237,
+            10.12399161007249
+          ],
+          "positionM": [
+            65439593531.03273,
+            79898702876.96451,
+            31811518944.954338
+          ],
+          "velocityMps": [
+            -27973.192032201532,
+            18566.3107484237,
+            10123.991610072491
+          ]
+        }
+      ],
+      "units": {
+        "positionRaw": "km",
+        "velocityRaw": "km/s",
+        "positionNormalized": "m",
+        "velocityNormalized": "m/s"
+      }
+    },
+    "earth": {
+      "horizonsId": "399",
+      "name": "Earth",
+      "command": "399",
+      "epoch": "A.D. 2025-Jan-01 00:00:00.0000",
+      "jdTdb": "2460676.500000000",
+      "frame": "ICRF",
+      "center": "500@10",
+      "refPlane": "FRAME",
+      "vecCorr": "NONE",
+      "aberrationCorrection": "NONE",
+      "timeScale": "TDB",
+      "stateVector": {
+        "positionM": [
+          -26730662298.92559,
+          132724680968.5359,
+          57534860582.672005
+        ],
+        "velocityMps": [
+          -29789.262242683828,
+          -5073.188593453443,
+          -2199.486142320485
+        ],
+        "originId": "ssb",
+        "frame": "ICRF",
+        "epoch": "2025-01-01T00:00:00.000",
+        "timeScale": "TDB",
+        "aberrationCorrection": "NONE"
+      },
+      "samples": [
+        {
+          "calendarTime": "A.D. 2025-Jan-01 00:00:00.0000",
+          "jdTdb": "2460676.500000000",
+          "positionKm": [
+            -26730662.29892559,
+            132724680.9685359,
+            57534860.58267201
+          ],
+          "velocityKmS": [
+            -29.78926224268383,
+            -5.073188593453443,
+            -2.199486142320485
+          ],
+          "positionM": [
+            -26730662298.92559,
+            132724680968.5359,
+            57534860582.672005
+          ],
+          "velocityMps": [
+            -29789.262242683828,
+            -5073.188593453443,
+            -2199.486142320485
+          ]
+        },
+        {
+          "calendarTime": "A.D. 2025-Jan-02 00:00:00.0000",
+          "jdTdb": "2460677.500000000",
+          "positionKm": [
+            -29300102.50530067,
+            132265630.9993136,
+            57335829.60486022
+          ],
+          "velocityKmS": [
+            -29.68687362043745,
+            -5.552650720312383,
+            -2.407570040992688
+          ],
+          "positionM": [
+            -29300102505.30067,
+            132265630999.3136,
+            57335829604.860214
+          ],
+          "velocityMps": [
+            -29686.87362043745,
+            -5552.650720312383,
+            -2407.570040992688
+          ]
+        }
+      ],
+      "units": {
+        "positionRaw": "km",
+        "velocityRaw": "km/s",
+        "positionNormalized": "m",
+        "velocityNormalized": "m/s"
+      }
+    },
+    "moon": {
+      "horizonsId": "301",
+      "name": "Moon",
+      "command": "301",
+      "epoch": "A.D. 2025-Jan-01 00:00:00.0000",
+      "jdTdb": "2460676.500000000",
+      "frame": "ICRF",
+      "center": "500@10",
+      "refPlane": "FRAME",
+      "vecCorr": "NONE",
+      "aberrationCorrection": "NONE",
+      "timeScale": "TDB",
+      "stateVector": {
+        "positionM": [
+          -26578609938.354233,
+          132416857337.1048,
+          57367980696.797264
+        ],
+        "velocityMps": [
+          -28856.63872115047,
+          -4678.788993206906,
+          -1986.7089428495901
+        ],
+        "originId": "ssb",
+        "frame": "ICRF",
+        "epoch": "2025-01-01T00:00:00.000",
+        "timeScale": "TDB",
+        "aberrationCorrection": "NONE"
+      },
+      "samples": [
+        {
+          "calendarTime": "A.D. 2025-Jan-01 00:00:00.0000",
+          "jdTdb": "2460676.500000000",
+          "positionKm": [
+            -26578609.93835423,
+            132416857.3371048,
+            57367980.69679727
+          ],
+          "velocityKmS": [
+            -28.85663872115047,
+            -4.678788993206906,
+            -1.98670894284959
+          ],
+          "positionM": [
+            -26578609938.354233,
+            132416857337.1048,
+            57367980696.797264
+          ],
+          "velocityMps": [
+            -28856.63872115047,
+            -4678.788993206906,
+            -1986.7089428495901
+          ]
+        },
+        {
+          "calendarTime": "A.D. 2025-Jan-02 00:00:00.0000",
+          "jdTdb": "2460677.500000000",
+          "positionKm": [
+            -29072335.80354453,
+            131999834.8271259,
+            57191661.68388344
+          ],
+          "velocityKmS": [
+            -28.87541830399317,
+            -4.977853293708909,
+            -2.096589738174274
+          ],
+          "positionM": [
+            -29072335803.54453,
+            131999834827.1259,
+            57191661683.883446
+          ],
+          "velocityMps": [
+            -28875.41830399317,
+            -4977.853293708909,
+            -2096.589738174274
+          ]
+        }
+      ],
+      "units": {
+        "positionRaw": "km",
+        "velocityRaw": "km/s",
+        "positionNormalized": "m",
+        "velocityNormalized": "m/s"
+      }
+    },
+    "mars": {
+      "horizonsId": "499",
+      "name": "Mars",
+      "command": "499",
+      "epoch": "A.D. 2025-Jan-01 00:00:00.0000",
+      "jdTdb": "2460676.500000000",
+      "frame": "ICRF",
+      "center": "500@10",
+      "refPlane": "FRAME",
+      "vecCorr": "NONE",
+      "aberrationCorrection": "NONE",
+      "timeScale": "TDB",
+      "stateVector": {
+        "positionM": [
+          -78043094812.87776,
+          206680320698.0506,
+          96904403909.7451
+        ],
+        "velocityMps": [
+          -22009.99345183975,
+          -5470.537043168567,
+          -1915.487127670527
+        ],
+        "originId": "ssb",
+        "frame": "ICRF",
+        "epoch": "2025-01-01T00:00:00.000",
+        "timeScale": "TDB",
+        "aberrationCorrection": "NONE"
+      },
+      "samples": [
+        {
+          "calendarTime": "A.D. 2025-Jan-01 00:00:00.0000",
+          "jdTdb": "2460676.500000000",
+          "positionKm": [
+            -78043094.81287776,
+            206680320.6980506,
+            96904403.9097451
+          ],
+          "velocityKmS": [
+            -22.00999345183975,
+            -5.470537043168567,
+            -1.915487127670527
+          ],
+          "positionM": [
+            -78043094812.87776,
+            206680320698.0506,
+            96904403909.7451
+          ],
+          "velocityMps": [
+            -22009.99345183975,
+            -5470.537043168567,
+            -1915.487127670527
+          ]
+        },
+        {
+          "calendarTime": "A.D. 2025-Jan-02 00:00:00.0000",
+          "jdTdb": "2460677.500000000",
+          "positionKm": [
+            -79941983.57689472,
+            206200384.4545319,
+            96735490.9405874
+          ],
+          "velocityKmS": [
+            -21.94552579908429,
+            -5.638982982231005,
+            -1.994488927280376
+          ],
+          "positionM": [
+            -79941983576.89471,
+            206200384454.53192,
+            96735490940.5874
+          ],
+          "velocityMps": [
+            -21945.52579908429,
+            -5638.982982231006,
+            -1994.4889272803762
+          ]
+        }
+      ],
+      "units": {
+        "positionRaw": "km",
+        "velocityRaw": "km/s",
+        "positionNormalized": "m",
+        "velocityNormalized": "m/s"
+      }
+    },
+    "jupiter": {
+      "horizonsId": "599",
+      "name": "Jupiter",
+      "command": "599",
+      "epoch": "A.D. 2025-Jan-01 00:00:00.0000",
+      "jdTdb": "2460676.500000000",
+      "frame": "ICRF",
+      "center": "500@10",
+      "refPlane": "FRAME",
+      "vecCorr": "NONE",
+      "aberrationCorrection": "NONE",
+      "timeScale": "TDB",
+      "stateVector": {
+        "positionM": [
+          157980369806.04602,
+          684983365407.9904,
+          289756979326.892
+        ],
+        "velocityMps": [
+          -12944.842962496139,
+          2947.4833770573123,
+          1578.4385976886929
+        ],
+        "originId": "ssb",
+        "frame": "ICRF",
+        "epoch": "2025-01-01T00:00:00.000",
+        "timeScale": "TDB",
+        "aberrationCorrection": "NONE"
+      },
+      "samples": [
+        {
+          "calendarTime": "A.D. 2025-Jan-01 00:00:00.0000",
+          "jdTdb": "2460676.500000000",
+          "positionKm": [
+            157980369.806046,
+            684983365.4079903,
+            289756979.326892
+          ],
+          "velocityKmS": [
+            -12.94484296249614,
+            2.947483377057312,
+            1.578438597688693
+          ],
+          "positionM": [
+            157980369806.04602,
+            684983365407.9904,
+            289756979326.892
+          ],
+          "velocityMps": [
+            -12944.842962496139,
+            2947.4833770573123,
+            1578.4385976886929
+          ]
+        },
+        {
+          "calendarTime": "A.D. 2025-Jan-02 00:00:00.0000",
+          "jdTdb": "2460677.500000000",
+          "positionKm": [
+            156861821.9494278,
+            685237188.9393945,
+            289892999.0956059
+          ],
+          "velocityKmS": [
+            -12.94679662556389,
+            2.929086138605622,
+            1.570664594561205
+          ],
+          "positionM": [
+            156861821949.42783,
+            685237188939.3945,
+            289892999095.6059
+          ],
+          "velocityMps": [
+            -12946.79662556389,
+            2929.0861386056217,
+            1570.664594561205
+          ]
+        }
+      ],
+      "units": {
+        "positionRaw": "km",
+        "velocityRaw": "km/s",
+        "positionNormalized": "m",
+        "velocityNormalized": "m/s"
+      }
+    }
+  }
+}

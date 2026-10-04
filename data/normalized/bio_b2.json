@@ -1,0 +1,38 @@
+{
+  "schema": "cosmos.biology.hbb_sickle.v1",
+  "gene": "HBB",
+  "transcriptRef": "NM_000518.5 (beta-globin, representative)",
+  "variant": {
+    "name": "HbS / sickle cell",
+    "rsId": "rs334",
+    "proteinChange": "Glu6Val",
+    "hgvsCoding": "c.20A>T",
+    "mechanism": "GAG→GTG at codon 6"
+  },
+  "sequenceWindow": {
+    "before": "ATGGTGCATCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCC",
+    "after": "ATGGTGCATCTGACTCCTGGTGAGAAGTCTGCCGTTACTGCC",
+    "codon6Before": "GAG",
+    "codon6After": "GTG"
+  },
+  "clinvarStyle": {
+    "clinicalSignificance": "Pathogenic (educational reference)",
+    "reviewStatus": "curated_demo",
+    "condition": "Sickle cell disease (HBB-related)"
+  },
+  "structureLink": {
+    "pdbId": "4HHB",
+    "role": "deoxyhemoglobin tetramer context"
+  },
+  "evidence": {
+    "kind": "assumed",
+    "method": "curated_educational_reference",
+    "notes": [
+      "Sequence window aligned with engine HBB_SICKLE_REFERENCE_WINDOW; verify against NCBI RefSeq for production."
+    ]
+  },
+  "structure": {
+    "pdbNormalized": "pdb_4hhb_ca.json",
+    "atomCount": 574
+  }
+}

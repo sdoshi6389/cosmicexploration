@@ -1,0 +1,22 @@
+{
+  "id": "manifest.level.earth_k1.v1",
+  "sourceUrls": [
+    "C:/Users/14084/Desktop/UMich Hackathon/data/normalized/horizons_solar_system.json",
+    "https://ssd.jpl.nasa.gov/horizons/"
+  ],
+  "release": "cosmos-demo-v1",
+  "query": {
+    "level": "K1",
+    "horizonsBody": "399"
+  },
+  "retrievedAt": "2026-10-03T20:19:14Z",
+  "checksum": "sha256:fd585ada7f72d9e5190429bdf76ba73f8da99b127718e9e785a76342e3e30708",
+  "license": "Mixed: NASA Horizons (vectors) + assumed planetary energy defaults",
+  "attribution": "NASA JPL Horizons; COSMOS demo assumptions",
+  "coverage": "Earth entity K1 intervention baseline",
+  "units": "m, W, dimensionless albedo/emissivity",
+  "frame": "ICRF (when Horizons present)",
+  "transformationVersion": "1.0.0",
+  "validationStatus": "validated",
+  "normalizedPath": "data/normalized/earth_k1.json"
+}

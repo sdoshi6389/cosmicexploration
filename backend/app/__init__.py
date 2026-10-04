@@ -1,0 +1,1 @@
+"""COSMOS FastAPI backend."""

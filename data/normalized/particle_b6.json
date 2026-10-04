@@ -1,0 +1,42 @@
+{
+  "schema": "cosmos.level.b6.v1",
+  "level": "B6",
+  "particles": [
+    {
+      "id": "particle.electron",
+      "name": "electron",
+      "symbol": "e⁻",
+      "massMeV": 0.51099895,
+      "charge_e": -1,
+      "evidence": {
+        "kind": "observed",
+        "sourceUrl": "https://pdg.lbl.gov/",
+        "release": "PDG 2024 summary"
+      }
+    },
+    {
+      "id": "particle.positron",
+      "name": "positron",
+      "symbol": "e⁺",
+      "massMeV": 0.51099895,
+      "charge_e": 1,
+      "evidence": {
+        "kind": "observed",
+        "sourceUrl": "https://pdg.lbl.gov/",
+        "release": "PDG 2024 summary"
+      }
+    },
+    {
+      "id": "particle.photon",
+      "name": "photon",
+      "symbol": "γ",
+      "massMeV": 0,
+      "charge_e": 0,
+      "evidence": {
+        "kind": "observed",
+        "sourceUrl": "https://pdg.lbl.gov/",
+        "release": "PDG 2024 summary"
+      }
+    }
+  ]
+}

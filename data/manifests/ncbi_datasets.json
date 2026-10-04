@@ -1,0 +1,19 @@
+{
+  "id": "ncbi_datasets",
+  "sourceName": "NCBI Datasets + E-utilities",
+  "category": "biology",
+  "sourceUrls": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+  "release": "NCBI Gene / RefSeq (live); assembly GRCh38.p14",
+  "query": "gene 3043, NM_000518 CDS, NP_000509; gene 3039, NM_000558 CDS, NP_000549",
+  "retrievedAt": "2026-10-04T00:02:51Z",
+  "checksum": "sha256:ecfbdccdd42077fa25e232a4666acadb1ebc82a3e3e97789aa4be5e81ca7be4a;sha256:150ea439c0acdc691c32648bcb7badeac61400e427e479f8955a672ea02526f5",
+  "license": "Public domain (NCBI)",
+  "attribution": "National Center for Biotechnology Information",
+  "coverage": "2 genes, 4 sequences",
+  "units": "bases / residues; GRCh38 1-based coordinates",
+  "frame": "GRCh38",
+  "validationStatus": "ok",
+  "rowCount": 6,
+  "tables": "gene_record:2,sequence_record:4",
+  "note": ""
+}

@@ -1,0 +1,19 @@
+{
+  "id": "sdss_dr18",
+  "sourceName": "Sloan Digital Sky Survey DR18",
+  "category": "cosmology",
+  "sourceUrls": "https://skyserver.sdss.org/dr18/SkyServerWS/SearchTools/SqlSearch https://www.sdss.org/dr18/",
+  "release": "SDSS DR18",
+  "query": "SELECT TOP 30000 s.specObjID, s.ra, s.dec, s.z, s.zErr, s.subClass, p.petroMag_r FROM SpecObj AS s JOIN PhotoObj AS p ON s.bestObjID = p.objID WHERE s.class = 'GALAXY' AND s.zWarning = 0 AND s.z BETWEEN 0.01 AND 0.12 AND (s.specObjID % 5) = 0",
+  "retrievedAt": "2026-10-03T23:45:10Z",
+  "checksum": "sha256:4fc5e1ecd2d74f87c506229397c61f3fe968ce02451dff30651c0f2ccbf39255",
+  "license": "SDSS data: public, cite SDSS",
+  "attribution": "Funding for SDSS-V by the Alfred P. Sloan Foundation et al.",
+  "coverage": "30000 galaxies, 0.01 < z < 0.12, 1-in-5 specObjID subsample",
+  "units": "deg, redshift, mag, comoving Mpc (Planck18 — derived)",
+  "frame": "ICRS; cartesian comoving Mpc, observer at origin",
+  "validationStatus": "ok",
+  "rowCount": 30000,
+  "tables": "sdss_galaxy:30000",
+  "note": ""
+}

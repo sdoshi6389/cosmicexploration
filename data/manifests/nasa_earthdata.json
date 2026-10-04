@@ -1,0 +1,19 @@
+{
+  "id": "nasa_earthdata",
+  "sourceName": "NASA Earthdata (CMR + GIBS)",
+  "category": "earth",
+  "sourceUrls": "https://cmr.earthdata.nasa.gov/search/collections.json https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?LAYERS=BlueMarble_ShadedRelief_Bathymetry https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?LAYERS=VIIRS_Black_Marble https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?LAYERS=MODIS_Terra_L3_Land_Water_Mask https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?LAYERS=MODIS_Terra_L3_Land_Surface_Temp_Monthly_Day https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?LAYERS=MODIS_Terra_L3_NDVI_Monthly",
+  "release": "GIBS 'best' WMS, EPSG:4326",
+  "query": "BlueMarble_ShadedRelief_Bathymetry@static; VIIRS_Black_Marble@2016-01-01; MODIS_Terra_L3_Land_Water_Mask@static; MODIS_Terra_L3_Land_Surface_Temp_Monthly_Day@2025-07-01; MODIS_Terra_L3_NDVI_Monthly@2025-07-01",
+  "retrievedAt": "2026-10-04T00:40:56Z",
+  "checksum": "day.jpg=sha256:ba0d25f05080acf378241a00bf6a96ed9b5d03d13f6018c3c59baf98ff6627a8;night.jpg=sha256:29588cbd1170ae1f3ee634e9acfd3bb77b0a3a5964d49dc272b3c300506941b2;land_water.png=sha256:e1238b89e5dea2d844c7cef49915b1d3bd07a0ca7a9f7bc01a76a8ddd7b3dc26;lst_day.png=sha256:42945c46bc5ebe97e236d58f3c29273d6aa6744fa390b8f9298dc832f5d01276;ndvi.png=sha256:298e84f0257240bca041f1e64b9afe21ff3f12c1cde0731e166b0e0f7eb67aa4",
+  "license": "NASA open data (no restrictions)",
+  "attribution": "NASA EOSDIS GIBS / Worldview; LP DAAC (MODIS); LAADS (VIIRS Black Marble)",
+  "coverage": "5 global layers",
+  "units": "rendered imagery (scientific units noted per layer)",
+  "frame": "EPSG:4326 plate carrée, -180..180 lon",
+  "validationStatus": "ok",
+  "rowCount": 5,
+  "tables": "earth_layer:5",
+  "note": ""
+}

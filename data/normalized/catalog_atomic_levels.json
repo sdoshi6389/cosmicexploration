@@ -1,0 +1,442 @@
+[
+  {
+    "id": "H-n1-l0",
+    "species": "H",
+    "n": 1,
+    "l": 0,
+    "energyEv": -13.605693122994,
+    "term": "1s",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n2-l0",
+    "species": "H",
+    "n": 2,
+    "l": 0,
+    "energyEv": -3.4014232807485,
+    "term": "2s",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n2-l1",
+    "species": "H",
+    "n": 2,
+    "l": 1,
+    "energyEv": -3.4014232807485,
+    "term": "2p",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n3-l0",
+    "species": "H",
+    "n": 3,
+    "l": 0,
+    "energyEv": -1.5117436803326667,
+    "term": "3s",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n3-l1",
+    "species": "H",
+    "n": 3,
+    "l": 1,
+    "energyEv": -1.5117436803326667,
+    "term": "3p",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n3-l2",
+    "species": "H",
+    "n": 3,
+    "l": 2,
+    "energyEv": -1.5117436803326667,
+    "term": "3d",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n4-l0",
+    "species": "H",
+    "n": 4,
+    "l": 0,
+    "energyEv": -0.850355820187125,
+    "term": "4s",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n4-l1",
+    "species": "H",
+    "n": 4,
+    "l": 1,
+    "energyEv": -0.850355820187125,
+    "term": "4p",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n4-l2",
+    "species": "H",
+    "n": 4,
+    "l": 2,
+    "energyEv": -0.850355820187125,
+    "term": "4d",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n4-l3",
+    "species": "H",
+    "n": 4,
+    "l": 3,
+    "energyEv": -0.850355820187125,
+    "term": "4f",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n5-l0",
+    "species": "H",
+    "n": 5,
+    "l": 0,
+    "energyEv": -0.54422772491976,
+    "term": "5s",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n5-l1",
+    "species": "H",
+    "n": 5,
+    "l": 1,
+    "energyEv": -0.54422772491976,
+    "term": "5p",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n5-l2",
+    "species": "H",
+    "n": 5,
+    "l": 2,
+    "energyEv": -0.54422772491976,
+    "term": "5d",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n5-l3",
+    "species": "H",
+    "n": 5,
+    "l": 3,
+    "energyEv": -0.54422772491976,
+    "term": "5f",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n5-l4",
+    "species": "H",
+    "n": 5,
+    "l": 4,
+    "energyEv": -0.54422772491976,
+    "term": "5g",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n6-l0",
+    "species": "H",
+    "n": 6,
+    "l": 0,
+    "energyEv": -0.3779359200831667,
+    "term": "6s",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n6-l1",
+    "species": "H",
+    "n": 6,
+    "l": 1,
+    "energyEv": -0.3779359200831667,
+    "term": "6p",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n6-l2",
+    "species": "H",
+    "n": 6,
+    "l": 2,
+    "energyEv": -0.3779359200831667,
+    "term": "6d",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n6-l3",
+    "species": "H",
+    "n": 6,
+    "l": 3,
+    "energyEv": -0.3779359200831667,
+    "term": "6f",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n6-l4",
+    "species": "H",
+    "n": 6,
+    "l": 4,
+    "energyEv": -0.3779359200831667,
+    "term": "6g",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n6-l5",
+    "species": "H",
+    "n": 6,
+    "l": 5,
+    "energyEv": -0.3779359200831667,
+    "term": "6h",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n7-l0",
+    "species": "H",
+    "n": 7,
+    "l": 0,
+    "energyEv": -0.2776672065917143,
+    "term": "7s",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n7-l1",
+    "species": "H",
+    "n": 7,
+    "l": 1,
+    "energyEv": -0.2776672065917143,
+    "term": "7p",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n7-l2",
+    "species": "H",
+    "n": 7,
+    "l": 2,
+    "energyEv": -0.2776672065917143,
+    "term": "7d",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n7-l3",
+    "species": "H",
+    "n": 7,
+    "l": 3,
+    "energyEv": -0.2776672065917143,
+    "term": "7f",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n7-l4",
+    "species": "H",
+    "n": 7,
+    "l": 4,
+    "energyEv": -0.2776672065917143,
+    "term": "7g",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n7-l5",
+    "species": "H",
+    "n": 7,
+    "l": 5,
+    "energyEv": -0.2776672065917143,
+    "term": "7h",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n7-l6",
+    "species": "H",
+    "n": 7,
+    "l": 6,
+    "energyEv": -0.2776672065917143,
+    "term": "7i",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n8-l0",
+    "species": "H",
+    "n": 8,
+    "l": 0,
+    "energyEv": -0.21258895504678124,
+    "term": "8s",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n8-l1",
+    "species": "H",
+    "n": 8,
+    "l": 1,
+    "energyEv": -0.21258895504678124,
+    "term": "8p",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n8-l2",
+    "species": "H",
+    "n": 8,
+    "l": 2,
+    "energyEv": -0.21258895504678124,
+    "term": "8d",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n8-l3",
+    "species": "H",
+    "n": 8,
+    "l": 3,
+    "energyEv": -0.21258895504678124,
+    "term": "8f",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n8-l4",
+    "species": "H",
+    "n": 8,
+    "l": 4,
+    "energyEv": -0.21258895504678124,
+    "term": "8g",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n8-l5",
+    "species": "H",
+    "n": 8,
+    "l": 5,
+    "energyEv": -0.21258895504678124,
+    "term": "8h",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n8-l6",
+    "species": "H",
+    "n": 8,
+    "l": 6,
+    "energyEv": -0.21258895504678124,
+    "term": "8i",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "H-n8-l7",
+    "species": "H",
+    "n": 8,
+    "l": 7,
+    "energyEv": -0.21258895504678124,
+    "term": "8k",
+    "evidenceKind": "derived",
+    "sourceId": "nist-rydberg"
+  },
+  {
+    "id": "He-I-1s2",
+    "species": "He",
+    "n": 1,
+    "l": 0,
+    "energyEv": -24.587,
+    "term": "1s² ¹S",
+    "evidenceKind": "observed",
+    "sourceId": "nist-asd"
+  },
+  {
+    "id": "He-I-1s2p",
+    "species": "He",
+    "n": 2,
+    "l": 1,
+    "energyEv": -3.623,
+    "term": "1s2p ¹P",
+    "evidenceKind": "observed",
+    "sourceId": "nist-asd"
+  },
+  {
+    "id": "C-I-gs",
+    "species": "C",
+    "n": 2,
+    "l": 1,
+    "energyEv": 0.0,
+    "term": "2s²2p² ³P",
+    "evidenceKind": "observed",
+    "sourceId": "nist-asd"
+  },
+  {
+    "id": "N-I-gs",
+    "species": "N",
+    "n": 2,
+    "l": 1,
+    "energyEv": 0.0,
+    "term": "2s²2p³ ⁴S",
+    "evidenceKind": "observed",
+    "sourceId": "nist-asd"
+  },
+  {
+    "id": "O-I-gs",
+    "species": "O",
+    "n": 2,
+    "l": 1,
+    "energyEv": 0.0,
+    "term": "2s²2p⁴ ³P",
+    "evidenceKind": "observed",
+    "sourceId": "nist-asd"
+  },
+  {
+    "id": "Fe-I-gs",
+    "species": "Fe",
+    "n": 4,
+    "l": 2,
+    "energyEv": 0.0,
+    "term": "a ⁵D",
+    "evidenceKind": "observed",
+    "sourceId": "nist-asd"
+  },
+  {
+    "id": "Na-I-3s",
+    "species": "Na",
+    "n": 3,
+    "l": 0,
+    "energyEv": -5.139,
+    "term": "3s ²S",
+    "evidenceKind": "observed",
+    "sourceId": "nist-asd"
+  },
+  {
+    "id": "Na-I-3p",
+    "species": "Na",
+    "n": 3,
+    "l": 1,
+    "energyEv": -3.037,
+    "term": "3p ²P",
+    "evidenceKind": "observed",
+    "sourceId": "nist-asd"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "id": "manifest.level.atom_b4.v1",
+  "sourceUrls": [
+    "https://physics.nist.gov/cuu/Constants/"
+  ],
+  "release": "CODATA 2018 derived",
+  "query": {
+    "element": "H",
+    "n": "1..5"
+  },
+  "retrievedAt": "2026-10-03T20:19:29Z",
+  "checksum": "sha256:5cb24040851a20fcb061f8a8ac16cb156c8f94b564dc5a536480def780d281ba",
+  "license": "NIST CODATA constants — public domain",
+  "attribution": "NIST Physical Measurement Laboratory",
+  "coverage": "Hydrogen n=1..5 energies",
+  "units": "eV",
+  "frame": "N/A",
+  "transformationVersion": "1.0.0",
+  "validationStatus": "validated",
+  "normalizedPath": "data/normalized/atom_b4.json"
+}

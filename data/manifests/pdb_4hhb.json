@@ -1,0 +1,28 @@
+{
+  "id": "manifest.pdb.4hhb.v1",
+  "sourceUrls": [
+    "https://files.rcsb.org/download/4HHB.cif",
+    "https://www.rcsb.org/structure/4HHB"
+  ],
+  "release": "4HHB",
+  "query": {
+    "pdbId": "4HHB",
+    "atomFilter": "CA",
+    "chains": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "retrievedAt": "2026-10-03T20:19:13Z",
+  "checksum": "sha256:a3b6901e590bcd96e34e8dcf5d4378f538db5fbfc717a015cc2fa6c72784241d",
+  "license": "RCSB PDB — see structure page for citation and license terms.",
+  "attribution": "Protein Data Bank; 4HHB depositor structure",
+  "coverage": "CA atoms chains A–D, n=574",
+  "units": "Angstrom (Cartesian, crystal frame)",
+  "frame": "PDB Cartesian / mmCIF atom_site",
+  "transformationVersion": "1.0.0",
+  "validationStatus": "validated",
+  "normalizedPath": "data/normalized/pdb_4hhb_ca.json"
+}

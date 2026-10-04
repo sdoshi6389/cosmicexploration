@@ -1,0 +1,450 @@
+[
+  {
+    "id": "seoul",
+    "name": "Seoul",
+    "latDeg": 37.57,
+    "lonDeg": 126.98,
+    "weight": 0.95
+  },
+  {
+    "id": "osaka",
+    "name": "Osaka",
+    "latDeg": 34.69,
+    "lonDeg": 135.5,
+    "weight": 0.7
+  },
+  {
+    "id": "manila",
+    "name": "Manila",
+    "latDeg": 14.6,
+    "lonDeg": 120.98,
+    "weight": 0.75
+  },
+  {
+    "id": "bangkok",
+    "name": "Bangkok",
+    "latDeg": 13.76,
+    "lonDeg": 100.5,
+    "weight": 0.7
+  },
+  {
+    "id": "ho_chi_minh",
+    "name": "Ho Chi Minh City",
+    "latDeg": 10.82,
+    "lonDeg": 106.63,
+    "weight": 0.65
+  },
+  {
+    "id": "chennai",
+    "name": "Chennai",
+    "latDeg": 13.08,
+    "lonDeg": 80.27,
+    "weight": 0.7
+  },
+  {
+    "id": "kolkata",
+    "name": "Kolkata",
+    "latDeg": 22.57,
+    "lonDeg": 88.36,
+    "weight": 0.75
+  },
+  {
+    "id": "bangalore",
+    "name": "Bengaluru",
+    "latDeg": 12.97,
+    "lonDeg": 77.59,
+    "weight": 0.75
+  },
+  {
+    "id": "tehran",
+    "name": "Tehran",
+    "latDeg": 35.69,
+    "lonDeg": 51.39,
+    "weight": 0.7
+  },
+  {
+    "id": "baghdad",
+    "name": "Baghdad",
+    "latDeg": 33.32,
+    "lonDeg": 44.37,
+    "weight": 0.55
+  },
+  {
+    "id": "nairobi",
+    "name": "Nairobi",
+    "latDeg": -1.29,
+    "lonDeg": 36.82,
+    "weight": 0.5
+  },
+  {
+    "id": "addis",
+    "name": "Addis Ababa",
+    "latDeg": 9.03,
+    "lonDeg": 38.74,
+    "weight": 0.45
+  },
+  {
+    "id": "casablanca",
+    "name": "Casablanca",
+    "latDeg": 33.57,
+    "lonDeg": -7.59,
+    "weight": 0.5
+  },
+  {
+    "id": "algiers",
+    "name": "Algiers",
+    "latDeg": 36.75,
+    "lonDeg": 3.06,
+    "weight": 0.45
+  },
+  {
+    "id": "cape_town",
+    "name": "Cape Town",
+    "latDeg": -33.92,
+    "lonDeg": 18.42,
+    "weight": 0.5
+  },
+  {
+    "id": "kinshasa",
+    "name": "Kinshasa",
+    "latDeg": -4.32,
+    "lonDeg": 15.31,
+    "weight": 0.55
+  },
+  {
+    "id": "luanda",
+    "name": "Luanda",
+    "latDeg": -8.84,
+    "lonDeg": 13.23,
+    "weight": 0.4
+  },
+  {
+    "id": "santiago",
+    "name": "Santiago",
+    "latDeg": -33.45,
+    "lonDeg": -70.67,
+    "weight": 0.55
+  },
+  {
+    "id": "buenos_aires",
+    "name": "Buenos Aires",
+    "latDeg": -34.6,
+    "lonDeg": -58.38,
+    "weight": 0.7
+  },
+  {
+    "id": "rio",
+    "name": "Rio de Janeiro",
+    "latDeg": -22.91,
+    "lonDeg": -43.17,
+    "weight": 0.7
+  },
+  {
+    "id": "brasilia",
+    "name": "Brasília",
+    "latDeg": -15.79,
+    "lonDeg": -47.88,
+    "weight": 0.45
+  },
+  {
+    "id": "caracas",
+    "name": "Caracas",
+    "latDeg": 10.48,
+    "lonDeg": -66.9,
+    "weight": 0.4
+  },
+  {
+    "id": "chicago",
+    "name": "Chicago",
+    "latDeg": 41.88,
+    "lonDeg": -87.63,
+    "weight": 0.7
+  },
+  {
+    "id": "houston",
+    "name": "Houston",
+    "latDeg": 29.76,
+    "lonDeg": -95.37,
+    "weight": 0.6
+  },
+  {
+    "id": "dallas",
+    "name": "Dallas",
+    "latDeg": 32.78,
+    "lonDeg": -96.8,
+    "weight": 0.55
+  },
+  {
+    "id": "miami",
+    "name": "Miami",
+    "latDeg": 25.76,
+    "lonDeg": -80.19,
+    "weight": 0.5
+  },
+  {
+    "id": "seattle",
+    "name": "Seattle",
+    "latDeg": 47.61,
+    "lonDeg": -122.33,
+    "weight": 0.5
+  },
+  {
+    "id": "vancouver",
+    "name": "Vancouver",
+    "latDeg": 49.28,
+    "lonDeg": -123.12,
+    "weight": 0.5
+  },
+  {
+    "id": "montreal",
+    "name": "Montreal",
+    "latDeg": 45.5,
+    "lonDeg": -73.57,
+    "weight": 0.5
+  },
+  {
+    "id": "berlin",
+    "name": "Berlin",
+    "latDeg": 52.52,
+    "lonDeg": 13.41,
+    "weight": 0.6
+  },
+  {
+    "id": "madrid",
+    "name": "Madrid",
+    "latDeg": 40.42,
+    "lonDeg": -3.7,
+    "weight": 0.6
+  },
+  {
+    "id": "rome",
+    "name": "Rome",
+    "latDeg": 41.9,
+    "lonDeg": 12.5,
+    "weight": 0.55
+  },
+  {
+    "id": "milan",
+    "name": "Milan",
+    "latDeg": 45.46,
+    "lonDeg": 9.19,
+    "weight": 0.5
+  },
+  {
+    "id": "amsterdam",
+    "name": "Amsterdam",
+    "latDeg": 52.37,
+    "lonDeg": 4.9,
+    "weight": 0.45
+  },
+  {
+    "id": "warsaw",
+    "name": "Warsaw",
+    "latDeg": 52.23,
+    "lonDeg": 21.01,
+    "weight": 0.5
+  },
+  {
+    "id": "kyiv",
+    "name": "Kyiv",
+    "latDeg": 50.45,
+    "lonDeg": 30.52,
+    "weight": 0.5
+  },
+  {
+    "id": "athens",
+    "name": "Athens",
+    "latDeg": 37.98,
+    "lonDeg": 23.73,
+    "weight": 0.4
+  },
+  {
+    "id": "lisbon",
+    "name": "Lisbon",
+    "latDeg": 38.72,
+    "lonDeg": -9.14,
+    "weight": 0.4
+  },
+  {
+    "id": "dublin",
+    "name": "Dublin",
+    "latDeg": 53.35,
+    "lonDeg": -6.26,
+    "weight": 0.4
+  },
+  {
+    "id": "stockholm",
+    "name": "Stockholm",
+    "latDeg": 59.33,
+    "lonDeg": 18.07,
+    "weight": 0.4
+  },
+  {
+    "id": "helsinki",
+    "name": "Helsinki",
+    "latDeg": 60.17,
+    "lonDeg": 24.94,
+    "weight": 0.35
+  },
+  {
+    "id": "oslo",
+    "name": "Oslo",
+    "latDeg": 59.91,
+    "lonDeg": 10.75,
+    "weight": 0.35
+  },
+  {
+    "id": "vienna",
+    "name": "Vienna",
+    "latDeg": 48.21,
+    "lonDeg": 16.37,
+    "weight": 0.45
+  },
+  {
+    "id": "prague",
+    "name": "Prague",
+    "latDeg": 50.08,
+    "lonDeg": 14.44,
+    "weight": 0.4
+  },
+  {
+    "id": "budapest",
+    "name": "Budapest",
+    "latDeg": 47.5,
+    "lonDeg": 19.04,
+    "weight": 0.4
+  },
+  {
+    "id": "bucharest",
+    "name": "Bucharest",
+    "latDeg": 44.43,
+    "lonDeg": 26.1,
+    "weight": 0.4
+  },
+  {
+    "id": "ankara",
+    "name": "Ankara",
+    "latDeg": 39.93,
+    "lonDeg": 32.86,
+    "weight": 0.5
+  },
+  {
+    "id": "dubai",
+    "name": "Dubai",
+    "latDeg": 25.2,
+    "lonDeg": 55.27,
+    "weight": 0.55
+  },
+  {
+    "id": "doha",
+    "name": "Doha",
+    "latDeg": 25.29,
+    "lonDeg": 51.53,
+    "weight": 0.4
+  },
+  {
+    "id": "kuwait",
+    "name": "Kuwait City",
+    "latDeg": 29.38,
+    "lonDeg": 47.98,
+    "weight": 0.4
+  },
+  {
+    "id": "tashkent",
+    "name": "Tashkent",
+    "latDeg": 41.3,
+    "lonDeg": 69.24,
+    "weight": 0.4
+  },
+  {
+    "id": "almaty",
+    "name": "Almaty",
+    "latDeg": 43.24,
+    "lonDeg": 76.95,
+    "weight": 0.35
+  },
+  {
+    "id": "ulaanbaatar",
+    "name": "Ulaanbaatar",
+    "latDeg": 47.91,
+    "lonDeg": 106.91,
+    "weight": 0.3
+  },
+  {
+    "id": "hanoi",
+    "name": "Hanoi",
+    "latDeg": 21.03,
+    "lonDeg": 105.85,
+    "weight": 0.55
+  },
+  {
+    "id": "phnom_penh",
+    "name": "Phnom Penh",
+    "latDeg": 11.56,
+    "lonDeg": 104.93,
+    "weight": 0.35
+  },
+  {
+    "id": "yangon",
+    "name": "Yangon",
+    "latDeg": 16.87,
+    "lonDeg": 96.2,
+    "weight": 0.4
+  },
+  {
+    "id": "kathmandu",
+    "name": "Kathmandu",
+    "latDeg": 27.72,
+    "lonDeg": 85.32,
+    "weight": 0.35
+  },
+  {
+    "id": "colombo",
+    "name": "Colombo",
+    "latDeg": 6.93,
+    "lonDeg": 79.85,
+    "weight": 0.35
+  },
+  {
+    "id": "auckland",
+    "name": "Auckland",
+    "latDeg": -36.85,
+    "lonDeg": 174.76,
+    "weight": 0.4
+  },
+  {
+    "id": "melbourne",
+    "name": "Melbourne",
+    "latDeg": -37.81,
+    "lonDeg": 144.96,
+    "weight": 0.5
+  },
+  {
+    "id": "perth",
+    "name": "Perth",
+    "latDeg": -31.95,
+    "lonDeg": 115.86,
+    "weight": 0.4
+  },
+  {
+    "id": "honolulu",
+    "name": "Honolulu",
+    "latDeg": 21.31,
+    "lonDeg": -157.86,
+    "weight": 0.3
+  },
+  {
+    "id": "anchorage",
+    "name": "Anchorage",
+    "latDeg": 61.22,
+    "lonDeg": -149.9,
+    "weight": 0.25
+  },
+  {
+    "id": "reykjavik",
+    "name": "Reykjavík",
+    "latDeg": 64.15,
+    "lonDeg": -21.94,
+    "weight": 0.2
+  }
+]

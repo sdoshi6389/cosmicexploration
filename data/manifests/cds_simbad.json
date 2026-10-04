@@ -1,0 +1,19 @@
+{
+  "id": "cds_simbad",
+  "sourceName": "CDS SIMBAD Astronomical Database",
+  "category": "stars",
+  "sourceUrls": "https://simbad.cds.unistra.fr/simbad/sim-tap",
+  "release": "SIMBAD (live)",
+  "query": "SELECT b.main_id, n.id AS star_name, b.ra, b.dec, b.plx_value, b.sp_type, f.V, g.id AS gaia_id FROM basic AS b JOIN ident AS n ON n.oidref = b.oid LEFT OUTER JOIN allfluxes AS f ON f.oidref = b.oid LEFT OUTER JOIN ident AS g ON g.oidref = b.oid AND g.id LIKE 'Gaia DR3 %' WHERE n.id LIKE 'NAME %' AND f.V < 5.0 AND b.ra IS NOT NULL",
+  "retrievedAt": "2026-10-03T23:44:53Z",
+  "checksum": "sha256:d3b6217bccc08b8b09b56779dd80cde12e966776251b34b7db0476fa4f6804cb",
+  "license": "SIMBAD: free for scientific use with acknowledgement",
+  "attribution": "This research has made use of the SIMBAD database, CDS, Strasbourg, France",
+  "coverage": "281 named stars with V < 5",
+  "units": "deg, mas, mag, pc",
+  "frame": "ICRS J2000; cartesian pc, Sun at origin",
+  "validationStatus": "ok",
+  "rowCount": 281,
+  "tables": "named_star:281",
+  "note": ""
+}

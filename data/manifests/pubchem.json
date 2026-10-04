@@ -1,0 +1,19 @@
+{
+  "id": "pubchem",
+  "sourceName": "PubChem PUG-REST",
+  "category": "molecular",
+  "sourceUrls": "https://pubchem.ncbi.nlm.nih.gov/rest/pug",
+  "release": "PubChem (live)",
+  "query": "CIDs 977, 962, 280, 297, 783, 5793, 5957, 2519, 26945, 14811, 14805: MolecularFormula,MolecularWeight,IUPACName,SMILES + SDF record_type=3d",
+  "retrievedAt": "2026-10-04T03:52:31Z",
+  "checksum": "977=sha256:d169c50515302138d49abe122b4d6fb01acd6a076d2f4e3ecd2d1302c20ea180;962=sha256:a43273572457b7666bc39b941ab9181a63208e91f2177242256996565213a618;280=sha256:3c6fab4eb4fffc7f0ff98983808cd477cf3851883fab08435f23f0722a1c991d;297=sha256:cb50e832d60edfbd31871d80bdbbca2089fbfa9af89cd6b2737ad65aaab7522c;5793=sha256:ba65209eea6eda03c7c994e78f604e159ddb8af55947a2fa833b17b24727f343;5957=sha256:c9ea723dd89f0051f748249ba8c22f00a407bfd586f26eb1917f55f8fd2ccb7b;2519=sha256:ed68af3b3eba1487f13849889c263d1502765ad1c9bf4952d1d74c2fc5313cbe",
+  "license": "Public domain (NCBI PubChem)",
+  "attribution": "Kim S, et al. PubChem 2025 update. Nucleic Acids Res.",
+  "coverage": "11 compounds, 108 conformer atoms",
+  "units": "Å, g/mol",
+  "frame": "conformer-local Cartesian",
+  "validationStatus": "ok",
+  "rowCount": 226,
+  "tables": "molecule:11,molecule_atom:108,molecule_bond:107",
+  "note": "CID 783 (Hydrogen): no 3D conformer; CID 26945 (Heme): no 3D conformer; CID 14811 (Tungsten trioxide): no 3D conformer; CID 14805 (Nickel oxide): no 3D conformer"
+}

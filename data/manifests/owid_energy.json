@@ -1,0 +1,19 @@
+{
+  "id": "owid_energy",
+  "sourceName": "Our World in Data — Energy dataset",
+  "category": "earth",
+  "sourceUrls": "https://raw.githubusercontent.com/owid/energy-data/master/owid-energy-data.csv https://ourworldindata.org/energy",
+  "release": "owid/energy-data master (latest primary-energy year 2024)",
+  "query": "World (all metrics) + continents (primary energy), 1965+",
+  "retrievedAt": "2026-10-04T03:52:20Z",
+  "checksum": "sha256:266f2e2baad7975351bc9bb4aa061d22b1da9fe4c47d51d2ac6071e01e171f76",
+  "license": "CC BY 4.0",
+  "attribution": "Energy Institute Statistical Review of World Energy; Ember; Our World in Data",
+  "coverage": "1394 world-level records 1965–2024",
+  "units": "TWh per year (primary energy, substitution method)",
+  "frame": "",
+  "validationStatus": "ok",
+  "rowCount": 1394,
+  "tables": "energy_record:1394",
+  "note": ""
+}

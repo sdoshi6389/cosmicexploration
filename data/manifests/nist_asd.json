@@ -1,0 +1,19 @@
+{
+  "id": "nist_asd",
+  "sourceName": "NIST Atomic Spectra Database (ver. 5.12)",
+  "category": "atomic",
+  "sourceUrls": "https://physics.nist.gov/cgi-bin/ASD/energy1.pl https://physics.nist.gov/cgi-bin/ASD/lines1.pl https://physics.nist.gov/cgi-bin/ASD/ie.pl",
+  "release": "NIST ASD v5.12 (live query)",
+  "query": "levels ['H I', 'He I', 'C I', 'N I', 'O I', 'Na I', 'Fe I']; lines ['H I', 'He I', 'Na I', 'O I']; IE H–Fe neutral",
+  "retrievedAt": "2026-10-04T00:03:26Z",
+  "checksum": "H I=sha256:6de434d898fa8675b423a416d0654308b1dfba55a248cb3d9bc4b8068004a08a;He I=sha256:ebb57484d3412cbc459282c61eee92b550fbc5c259d182d4ac04090843022302;C I=sha256:07d06b480d925e6a9c19d893ae0e053374fa9fd9e072de95b2a9c028f5a6a1a7;N I=sha256:a11bd4b89072356e5150e4f01059b28fe33551137ddbb19b62f21f6212020f96;O I=sha256:70e466712ee4d0cd3eafd6e6251391079769f2ef9a0e3a4eb1ccb6707a9ddb16;Na I=sha256:dab9d747afd6a1706252ac1f4ab0d7b5aad3f822a5888dbda65cc9057da9ac8d;Fe I=sha256:0af5bf50f5dc693e3658ba64a6d7c3fb2edaca6a8ec9ef5e1e0722f03aa387f3;lines H I=sha256:83f8a9201d306c691959c28f1def685c2fd6d8ed64da05b6b4503ee87da92df6;lines He I=sha256:5740dad6c7d768a293d1545ae69fba86bf29f959b046e5419dcf92f7bfbbdcf5;lines Na I=sha256:1a547f36793e666af5204ac8ae12b5ffa2925e00d85c945d0d333148ceb79bdf;lines O I=sha256:f733e6ae8cca7309774c8fc6683ede100f66b219d3180ea892ff5ca28168be8d;ie=sha256:2c3f003da565ebdd98c4a76bcbc20ff5c800437a366fedf877fdc9d781a6ac9c",
+  "license": "Public domain (NIST SRD 78)",
+  "attribution": "Kramida, A., Ralchenko, Yu., Reader, J., and NIST ASD Team",
+  "coverage": "417 levels, 1318 lines, 26 ionization energies",
+  "units": "eV, nm (vacuum), s^-1",
+  "frame": "",
+  "validationStatus": "ok",
+  "rowCount": 1761,
+  "tables": "nist_level:417,nist_line:1318,ionization_energy:26",
+  "note": "H I configurations limited to n ≤ 12; other species first N levels by energy."
+}

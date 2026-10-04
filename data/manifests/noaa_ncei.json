@@ -1,0 +1,19 @@
+{
+  "id": "noaa_ncei",
+  "sourceName": "NOAA NCEI Climate at a Glance — Global Time Series",
+  "category": "earth",
+  "sourceUrls": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series/globe/land_ocean/12/12/1850-2025/data.json",
+  "release": "Global Land and Ocean January - December Average Temperature Departures",
+  "query": "globe / land_ocean / 12-month (annual, Jan–Dec) / 1850–2025",
+  "retrievedAt": "2026-10-03T23:42:36Z",
+  "checksum": "sha256:b216bd43fa0217b694f8357215c6f23c98051df48273e34124f61d982835fd4f",
+  "license": "Public domain (NOAA)",
+  "attribution": "NOAA National Centers for Environmental Information",
+  "coverage": "1850–2025 (176 years)",
+  "units": "Degrees Celsius",
+  "frame": "",
+  "validationStatus": "ok",
+  "rowCount": 176,
+  "tables": "climate_anomaly:176",
+  "note": "Global climate index; not station weather."
+}

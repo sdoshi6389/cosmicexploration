@@ -1,0 +1,38 @@
+{
+  "name": "cosmos",
+  "private": true,
+  "version": "0.1.0",
+  "description": "COSMOS — multiscale universe simulator with SpacetimeDB as the authoritative world state",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build:engine": "npm run build -w @cosmos/engine",
+    "test:engine": "npm run test -w @cosmos/engine",
+    "dev:web": "npm run dev -w @cosmos/web",
+    "build:web": "npm run build -w @cosmos/web",
+    "dev:api": "cd backend && .venv/Scripts/python.exe -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000",
+    "ingest": "python scripts/ingest/pipeline.py && python scripts/publish_spacetime.py",
+    "test:stdb": "vitest run -c tests/integration/vitest.config.ts --root .",
+    "test": "npm run test:engine && npm run test:stdb",
+    "publish:module": "spacetime publish cosmicexploration-dejjt --server maincloud -p ./spacetimedb --yes=remote --yes=migrate",
+    "test:e2e": "node tests/e2e/levels.mjs && node tests/e2e/barrow.mjs && node tests/e2e/civ_smoke.mjs",
+    "test:grok": "node tests/e2e/grok_freebuild.mjs",
+    "test:voice": "node tests/e2e/voice_mic.mjs tests/e2e/fixtures/voice_jupiter_ring.wav body.jupiter && node tests/e2e/voice_mic.mjs tests/e2e/fixtures/voice_vega_swarm.wav none K2B1 \"K3|Kardashev III|galactic\" && node tests/e2e/voice_matrix.mjs && node tests/e2e/civ_switch.mjs"
+  },
+  "overrides": {
+    "@types/three": "0.170.0",
+    "three": "0.170.0",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "playwright": "^1.53.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@vercel/blob": "^1.1.1"
+  }
+}

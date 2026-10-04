@@ -1,0 +1,20 @@
+{
+  "id": "manifest.level.nuclear_b5.v1",
+  "sourceUrls": [
+    "https://www.nndc.bnl.gov/nudat3/"
+  ],
+  "release": "placeholder-v1",
+  "query": {
+    "isotope": "Fe-56"
+  },
+  "retrievedAt": "2026-10-03T20:19:30Z",
+  "checksum": "sha256:740eb23e7cf19c68beaddec5a04b54d5d24d9b6583d42237fd4922332b56776c",
+  "license": "NNDC — future ingest",
+  "attribution": "NNDC placeholder",
+  "coverage": "Semantic traversal context only",
+  "units": "MeV, dimensionless Z/N/A",
+  "frame": "N/A",
+  "transformationVersion": "1.0.0",
+  "validationStatus": "placeholder",
+  "normalizedPath": "data/normalized/nuclear_b5_context.json"
+}

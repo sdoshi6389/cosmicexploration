@@ -1,0 +1,19 @@
+{
+  "id": "human_cell_atlas",
+  "sourceName": "Human Cell Atlas Data Portal (Azul)",
+  "category": "biology",
+  "sourceUrls": "https://service.azul.data.humancellatlas.org/index/projects https://data.humancellatlas.org/apis",
+  "release": "default Azul catalog (live)",
+  "query": "projects filters organ in ['blood', 'bone marrow']",
+  "retrievedAt": "2026-10-03T23:47:00Z",
+  "checksum": "",
+  "license": "Per-project data use terms (mostly CC BY 4.0)",
+  "attribution": "Human Cell Atlas Data Coordination Platform",
+  "coverage": "88 projects with blood / bone-marrow specimens",
+  "units": "cells, donors",
+  "frame": "",
+  "validationStatus": "ok",
+  "rowCount": 88,
+  "tables": "hca_project:88",
+  "note": "Metadata context only; no anatomy meshes or cell simulations come from HCA."
+}

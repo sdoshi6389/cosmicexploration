@@ -1,0 +1,19 @@
+{
+  "id": "ensembl_rest",
+  "sourceName": "Ensembl REST API",
+  "category": "biology",
+  "sourceUrls": "https://rest.ensembl.org",
+  "release": "Ensembl (live, GRCh38)",
+  "query": "lookup/symbol/homo_sapiens/HBB → sequence/id/<canonical>?type=cds|protein; lookup/symbol/homo_sapiens/HBA1 → sequence/id/<canonical>?type=cds|protein",
+  "retrievedAt": "2026-10-04T00:02:56Z",
+  "checksum": "sha256:0f7013d3b27174bfbed1a5223bf50e416629c5dc436a35e06a32eef4420012d7;sha256:d6ee199770c6041435b9217bda44247d766745325a02c2d6d63eb3d163c7b990",
+  "license": "Ensembl: no restrictions (Apache 2.0 software, open data)",
+  "attribution": "Ensembl, EMBL-EBI",
+  "coverage": "4 sequences",
+  "units": "bases / residues",
+  "frame": "GRCh38",
+  "validationStatus": "ok",
+  "rowCount": 4,
+  "tables": "sequence_record:4",
+  "note": "HBB ENST00000335295 CDS == RefSeq; HBA1 ENST00000320868 CDS == RefSeq"
+}

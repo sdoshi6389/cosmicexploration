@@ -1,0 +1,17 @@
+{
+  "sourceId": "cosmos-dataset-bundle",
+  "sourceUrls": [
+    "local://data/normalized/cosmos_dataset.json"
+  ],
+  "release": "2.0.0",
+  "query": "build_dataset.py",
+  "retrievedAt": "2026-10-03T21:09:08Z",
+  "checksum": null,
+  "license": null,
+  "attribution": null,
+  "coverage": null,
+  "units": null,
+  "frame": null,
+  "validationStatus": "ok",
+  "note": "stars=40"
+}

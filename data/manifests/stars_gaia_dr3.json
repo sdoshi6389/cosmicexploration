@@ -1,0 +1,17 @@
+{
+  "sourceId": "esa-gaia-dr3",
+  "sourceUrls": [
+    "https://www.cosmos.esa.int/web/gaia/dr3"
+  ],
+  "release": "curated bright-star table",
+  "query": null,
+  "retrievedAt": "2026-10-03T21:09:07Z",
+  "checksum": null,
+  "license": "Gaia data are released under CC BY-SA 3.0 IGO; cite the Gaia mission and DPAC per https://www.cosmos.esa.int/web/gaia-users/credits-terms",
+  "attribution": "ESA/Gaia/DPAC",
+  "coverage": "Curated list of named bright stars with published parallaxes, used because every remote catalogue service was unreachable. Heavily biased toward famous naked-eye stars; not a statistical sample.",
+  "units": "deg for ra/dec, mas for parallax, metres for distance and x/y/z, W for luminosity",
+  "frame": "ICRS, Sun at origin, Gaia DR3 reference epoch J2016.0 for astrometry",
+  "validationStatus": "partial",
+  "note": "Fallback catalogue with 40 stars. Attempt ladder: curated_fallback=ok(40 stars)."
+}

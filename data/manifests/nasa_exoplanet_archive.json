@@ -1,0 +1,19 @@
+{
+  "id": "nasa_exoplanet_archive",
+  "sourceName": "NASA Exoplanet Archive (pscomppars)",
+  "category": "stars",
+  "sourceUrls": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html",
+  "release": "pscomppars (live composite table)",
+  "query": "select pl_name, hostname, ra, dec, sy_dist, pl_orbper, pl_orbsmax, pl_rade, pl_bmasse, pl_eqt, pl_orbeccen, pl_insol, st_teff, st_rad, st_mass, st_lum, discoverymethod, disc_year, sy_pnum, gaia_dr3_id from pscomppars",
+  "retrievedAt": "2026-10-03T23:44:55Z",
+  "checksum": "sha256:2e01c0500db2c4b7d4f575fafd99b2aee92b1b7afcbfc3351ed1c09ac5582f96",
+  "license": "Public (NASA/IPAC); cite the archive",
+  "attribution": "NASA Exoplanet Archive, operated by Caltech/IPAC under contract with NASA",
+  "coverage": "6375 confirmed planets",
+  "units": "pc, days, AU, R_earth, M_earth, K, S_earth, R_sun, M_sun, log10(L/L_sun)",
+  "frame": "ICRS; cartesian pc with Sun at origin",
+  "validationStatus": "ok",
+  "rowCount": 6375,
+  "tables": "exoplanet_system:6375",
+  "note": "Composite values mix references per planet; see `ps` table for default solutions."
+}

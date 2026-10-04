@@ -1,0 +1,26 @@
+{
+  "schema": "cosmos.demo_baseline.v1",
+  "id": "cosmos-demo-v1",
+  "version": "1.0.0",
+  "assembledAt": "2026-10-03T20:19:14Z",
+  "levels": {
+    "K1": "earth_k1.json",
+    "K2": "solar_k2.json",
+    "K3": "galaxy_k3.json",
+    "B2": "bio_b2.json",
+    "B4": "atom_b4.json",
+    "B5": "nuclear_b5_context.json",
+    "B6": "particle_b6.json"
+  },
+  "ingestStatus": {
+    "horizons": true,
+    "pdb4hhb": true,
+    "galaxyMode": "curated_fallback"
+  },
+  "voicePolicy": "Grok Voice is mandatory for K1–K3 and B2/B4/B6; supersedes any optional Voice wording in DESIGN.md.",
+  "snapshotEpoch": {
+    "start": "2025-01-01",
+    "stop": "2025-01-02",
+    "step": "1 d"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "nasa_nssdc_factsheet",
+  "sourceName": "NASA NSSDC Planetary Fact Sheet",
+  "category": "solar_system",
+  "sourceUrls": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+  "release": "NSSDC fact sheet (live page)",
+  "query": "Planetary Fact Sheet - Metric",
+  "retrievedAt": "2026-10-03T23:42:18Z",
+  "checksum": "sha256:42bdc3f1dae470b85580c6ac66c353964a05d544ad2ac970a6b7d908337a6c3c",
+  "license": "Public domain (NASA)",
+  "attribution": "Dr. David R. Williams, NASA Goddard Space Flight Center",
+  "coverage": "10 bodies (Moon distance/orbit values are geocentric)",
+  "units": "as labelled per column (10^24 kg, km, kg/m^3, m/s^2, km/s, h, 10^6 km, d, deg, C, bar)",
+  "frame": "",
+  "validationStatus": "ok",
+  "rowCount": 10,
+  "tables": "planet_fact:10",
+  "note": ""
+}

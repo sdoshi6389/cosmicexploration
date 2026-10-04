@@ -1,0 +1,22 @@
+{
+  "id": "manifest.level.bio_b2.v1",
+  "sourceUrls": [
+    "https://www.ncbi.nlm.nih.gov/gene/3043",
+    "https://www.ncbi.nlm.nih.gov/clinvar/variation/50623/"
+  ],
+  "release": "curated-educational-v1",
+  "query": {
+    "gene": "HBB",
+    "variant": "rs334"
+  },
+  "retrievedAt": "2026-10-03T20:19:29Z",
+  "checksum": "sha256:28b6e25e3d32770209e4fbc953b00736ad46ab9b94e0e5fd0efe44be44ca5fea",
+  "license": "NCBI/ClinVar references — educational demo; not clinical advice",
+  "attribution": "NCBI RefSeq / ClinVar style metadata",
+  "coverage": "HBB sickle cell counterfactual window",
+  "units": "nucleotides",
+  "frame": "N/A",
+  "transformationVersion": "1.0.0",
+  "validationStatus": "validated",
+  "normalizedPath": "data/normalized/bio_b2.json"
+}

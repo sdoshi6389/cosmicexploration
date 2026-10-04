@@ -1,0 +1,19 @@
+{
+  "id": "jpl_horizons",
+  "sourceName": "NASA/JPL Horizons System",
+  "category": "solar_system",
+  "sourceUrls": "https://ssd.jpl.nasa.gov/api/horizons.api https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+  "release": "DE441-based Horizons ephemerides, epoch 2026-10-03 TDB",
+  "query": "VECTORS CENTER=500@10 REF_SYSTEM=ICRF REF_PLANE=FRAME VEC_CORR=NONE OUT_UNITS=KM-S; ELEMENTS at epoch; tracks over one period (moons parent-centric)",
+  "retrievedAt": "2026-10-03T23:44:10Z",
+  "checksum": "sha256:fa2e2bceba2ea1263eff36056250c2563c1cfdaecb473f46994ffe451a348a80",
+  "license": "Public domain (NASA/JPL)",
+  "attribution": "JPL Solar System Dynamics Group, Horizons On-Line Ephemeris System",
+  "coverage": "30 bodies, 5129 orbit samples",
+  "units": "m, m/s (converted once from km, km/s)",
+  "frame": "ICRF equatorial, heliocentric (Sun body centre); moon tracks parent-centric",
+  "validationStatus": "ok",
+  "rowCount": 5159,
+  "tables": "horizons_body:30,orbit_sample:5129",
+  "note": ""
+}

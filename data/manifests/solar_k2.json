@@ -1,0 +1,25 @@
+{
+  "id": "manifest.level.solar_k2.v1",
+  "sourceUrls": [
+    "https://ssd.jpl.nasa.gov/api/horizons.api"
+  ],
+  "release": "2026-10-03T20:18:57Z",
+  "query": {
+    "level": "K2",
+    "epochPin": {
+      "start": "2025-01-01",
+      "stop": "2025-01-02",
+      "step": "1 d"
+    }
+  },
+  "retrievedAt": "2026-10-03T20:19:14Z",
+  "checksum": "sha256:7b08b73e95775ad89184f1300bd0ad5ea0d0f6aa20fb3e5bba081b8335d23c48",
+  "license": "NASA/JPL Horizons — public domain U.S. government work",
+  "attribution": "NASA JPL SSD Horizons",
+  "coverage": "Sun + major bodies state vectors for Dyson/swarm context",
+  "units": "m, m/s, W",
+  "frame": "ICRF",
+  "transformationVersion": "1.0.0",
+  "validationStatus": "validated",
+  "normalizedPath": "data/normalized/solar_k2.json"
+}

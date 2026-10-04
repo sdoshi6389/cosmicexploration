@@ -1,0 +1,245 @@
+[
+  {
+    "id": "h1",
+    "symbol": "¹H",
+    "z": 1,
+    "a": 1,
+    "bindingEnergyPerNucleonMev": 0.0,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "h2",
+    "symbol": "²H",
+    "z": 1,
+    "a": 2,
+    "bindingEnergyPerNucleonMev": 1.112,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "he3",
+    "symbol": "³He",
+    "z": 2,
+    "a": 3,
+    "bindingEnergyPerNucleonMev": 2.573,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "he4",
+    "symbol": "⁴He",
+    "z": 2,
+    "a": 4,
+    "bindingEnergyPerNucleonMev": 7.074,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "c12",
+    "symbol": "¹²C",
+    "z": 6,
+    "a": 12,
+    "bindingEnergyPerNucleonMev": 7.68,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "c13",
+    "symbol": "¹³C",
+    "z": 6,
+    "a": 13,
+    "bindingEnergyPerNucleonMev": 7.47,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "c14",
+    "symbol": "¹⁴C",
+    "z": 6,
+    "a": 14,
+    "bindingEnergyPerNucleonMev": 7.52,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "n14",
+    "symbol": "¹⁴N",
+    "z": 7,
+    "a": 14,
+    "bindingEnergyPerNucleonMev": 7.476,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "o16",
+    "symbol": "¹⁶O",
+    "z": 8,
+    "a": 16,
+    "bindingEnergyPerNucleonMev": 7.976,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "ne20",
+    "symbol": "²⁰Ne",
+    "z": 10,
+    "a": 20,
+    "bindingEnergyPerNucleonMev": 8.032,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "na23",
+    "symbol": "²³Na",
+    "z": 11,
+    "a": 23,
+    "bindingEnergyPerNucleonMev": 8.111,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "mg24",
+    "symbol": "²⁴Mg",
+    "z": 12,
+    "a": 24,
+    "bindingEnergyPerNucleonMev": 8.261,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "al27",
+    "symbol": "²⁷Al",
+    "z": 13,
+    "a": 27,
+    "bindingEnergyPerNucleonMev": 8.332,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "si28",
+    "symbol": "²⁸Si",
+    "z": 14,
+    "a": 28,
+    "bindingEnergyPerNucleonMev": 8.448,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "p31",
+    "symbol": "³¹P",
+    "z": 15,
+    "a": 31,
+    "bindingEnergyPerNucleonMev": 8.481,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "s32",
+    "symbol": "³²S",
+    "z": 16,
+    "a": 32,
+    "bindingEnergyPerNucleonMev": 8.493,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "fe56",
+    "symbol": "⁵⁶Fe",
+    "z": 26,
+    "a": 56,
+    "bindingEnergyPerNucleonMev": 8.79,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "ni58",
+    "symbol": "⁵⁸Ni",
+    "z": 28,
+    "a": 58,
+    "bindingEnergyPerNucleonMev": 8.732,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "cu63",
+    "symbol": "⁶³Cu",
+    "z": 29,
+    "a": 63,
+    "bindingEnergyPerNucleonMev": 8.752,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "zn64",
+    "symbol": "⁶⁴Zn",
+    "z": 30,
+    "a": 64,
+    "bindingEnergyPerNucleonMev": 8.736,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "ag107",
+    "symbol": "¹⁰⁷Ag",
+    "z": 47,
+    "a": 107,
+    "bindingEnergyPerNucleonMev": 8.554,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "i127",
+    "symbol": "¹²⁷I",
+    "z": 53,
+    "a": 127,
+    "bindingEnergyPerNucleonMev": 8.445,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "au197",
+    "symbol": "¹⁹⁷Au",
+    "z": 79,
+    "a": 197,
+    "bindingEnergyPerNucleonMev": 7.916,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "pb208",
+    "symbol": "²⁰⁸Pb",
+    "z": 82,
+    "a": 208,
+    "bindingEnergyPerNucleonMev": 7.867,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "u235",
+    "symbol": "²³⁵U",
+    "z": 92,
+    "a": 235,
+    "bindingEnergyPerNucleonMev": 7.591,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "u238",
+    "symbol": "²³⁸U",
+    "z": 92,
+    "a": 238,
+    "bindingEnergyPerNucleonMev": 7.57,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  },
+  {
+    "id": "pu239",
+    "symbol": "²³⁹Pu",
+    "z": 94,
+    "a": 239,
+    "bindingEnergyPerNucleonMev": 7.56,
+    "evidenceKind": "observed",
+    "sourceId": "nndc-nudat"
+  }
+]

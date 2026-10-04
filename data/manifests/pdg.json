@@ -1,0 +1,19 @@
+{
+  "id": "pdg",
+  "sourceName": "Particle Data Group — API database",
+  "category": "particle",
+  "sourceUrls": "https://pdg.lbl.gov/2025/api/pdgall-2025-v0.2.0.sqlite https://pdg.lbl.gov/2025/api/index.html",
+  "release": "PDG 2025 edition (pdgall-2025-v0.2.0)",
+  "query": "pdgparticle with MC id; summary-table M/G/T values (limits excluded)",
+  "retrievedAt": "2026-10-04T00:03:41Z",
+  "checksum": "pdgall-2025-v0.2.0.sqlite=sha256:22c87661a8189d872a333ee269abc575db8e3e21bc8f4ba90f9b7dfcf0859f58",
+  "license": "CC BY 4.0",
+  "attribution": "S. Navas et al. (Particle Data Group), Phys. Rev. D 110, 030001 (2024) and 2025 update",
+  "coverage": "616 particle charge states, 302 with summary masses",
+  "units": "MeV, s, e",
+  "frame": "",
+  "validationStatus": "ok",
+  "rowCount": 616,
+  "tables": "pdg_particle:616",
+  "note": ""
+}

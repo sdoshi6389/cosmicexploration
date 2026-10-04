@@ -1,0 +1,19 @@
+{
+  "id": "iaea_livechart",
+  "sourceName": "IAEA LiveChart of Nuclides (ENSDF / NUBASE / AME)",
+  "category": "nuclear",
+  "sourceUrls": "https://www-nds.iaea.org/relnsd/v1/data https://www-nds.iaea.org/relnsd/vcharthtml/api_v0_guide.html https://www.nndc.bnl.gov/ensdf/",
+  "release": "LiveChart API v1 (ENSDF evaluations; AME2020 masses)",
+  "query": "ground_states all; levels ['56fe', '22na', '22ne', '1h', '2h', '4he', '12c', '16o']; decay_rads [('22na', 'bp'), ('22na', 'g'), ('60co', 'bm'), ('60co', 'g'), ('56co', 'g')]",
+  "retrievedAt": "2026-10-04T00:03:36Z",
+  "checksum": "ground=sha256:8aee5dc431af1e35fcb49746387b83e927b3c300e7787defbda621a08212c795;56fe=sha256:ca47da88fbc868efcfa1a0e41e87460ca4ea476eddb05eb39d3bf73c63ce2e3f;22na=sha256:3f46fb4a65f783d6bf64bddb4f068f8f9403b0d9ddb3152526663584317c441d;22ne=sha256:287c51c5049e56a72d6177452ccf8bc018fd80b73341c44146fe26d69b900ec4;1h=sha256:d2154fd0abd83b98abfbbc33f7aeb887bef1a73483d5af702e00608eed9d8325;2h=sha256:58b64c51b14a44c5e59a6fe8913c6878e15ded24b2edaa88d50f0783a118a345;4he=sha256:a316ac3ed54da854545b32d056a05a7ac65b860175a016dbbae3f6d81b77cf42;12c=sha256:991b22fe037334ef2d4225802489a7e06f0ffde80f2aa06875f9ead2c7c956aa;16o=sha256:a86798d8ba82f7eea021890e973472b1921544596bd0fc3778273c6dfbf1a463;22na-bp=sha256:b77e898a2b679a66c92935c6a67075890969b461b19346a8fc09dd130f8ac6cc;22na-g=sha256:8d9d12b8b8e386458a798e7582ac3404d5fd2a0aaa30d75901994cd159b7bc92;60co-bm=sha256:56d4aa7e2bd09cdda19bc4e31ffb1c16d304bebd278ece819d4a4be8d7f9dcb3",
+  "license": "IAEA Nuclear Data Services — free use with citation",
+  "attribution": "IAEA Nuclear Data Section; ENSDF (NNDC, Brookhaven National Laboratory)",
+  "coverage": "3386 ground states, 218 levels, 82 decay radiations",
+  "units": "keV, s, %",
+  "frame": "",
+  "validationStatus": "ok",
+  "rowCount": 3686,
+  "tables": "nuclide:3386,nuclear_level:218,decay_radiation:82",
+  "note": "ENSDF evaluations are served via the IAEA LiveChart API (NuDat3 has no bulk REST API)."
+}

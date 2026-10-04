@@ -1,0 +1,19 @@
+{
+  "id": "esa_gaia_dr3",
+  "sourceName": "ESA Gaia Data Release 3",
+  "category": "stars",
+  "sourceUrls": "https://gaia.ari.uni-heidelberg.de/tap https://gea.esac.esa.int/tap-server/tap https://www.cosmos.esa.int/web/gaia/dr3",
+  "release": "Gaia DR3 (2022-06-13), reference epoch J2016.0",
+  "query": "[bright] SELECT TOP 10000 g.source_id, g.ra, g.dec, g.parallax, g.parallax_error, g.pmra, g.pmdec, g.radial_velocity, g.phot_g_mean_mag, g.bp_rp, g.ref_epoch, g.ruwe, g.l, g.b, ap.teff_gspphot, ap.lum_flame FROM gaiadr3.gaia_source AS g LEFT OUTER JOIN gaiadr3.astrophysical_parameters AS ap ON g.source_id = ap.source_id WHERE g.parallax > 0 AND g.parallax_over_error > 10 AND g.ruwe < 1.4 ORDER BY phot_g_mean_mag ASC || [nearby] SELECT TOP 25000 g.source_id, g.ra, g.dec, g.parallax, g.parallax_error, g.pmra, g.pmdec, g.radial_velocity, g.phot_g_mean_mag, g.bp_rp, g.ref_epoch, g.ruwe, g.l, g.b, ap.teff_gspphot, ap.lum_flame FROM gaiadr3.gaia_source AS g LEFT OUTER JOIN gaiadr3.astrophysical_parameters AS ap ON g.source_id = ap.source_id WHERE g.parallax > 0 AND g.parallax_over_error > 10 AND g.ruwe < 1.4 AND g.parallax > 10 ORDER BY parallax DESC || [field] SELECT TOP 15000 g.source_id, g.ra, g.dec, g.parallax, g.parallax_error, g.pmra, g.pmdec, g.radial_velocity, g.phot_g_mean_mag, g.bp_rp, g.ref_epoch, g.ruwe, g.l, g.b, ap.teff_gspphot, ap.lum_flame FROM gaiadr3.gaia_source AS g LEFT OUTER JOIN gaiadr3.astrophysical_parameters AS ap ON g.source_id = ap.source_id WHERE g.parallax > 0 AND g.parallax_over_error > 10 AND g.ruwe < 1.4 AND g.parallax BETWEEN 0.25 AND 1.0 AND g.phot_g_mean_mag < 13 AND g.random_index < 150000000",
+  "retrievedAt": "2026-10-04T00:42:23Z",
+  "checksum": "bright=sha256:3fe9e63c86dde93c721c821bb2603e9ed27717bd4d2f96c2975f828ed6ff2245;nearby=sha256:424a49ce21d0b3a6f603c6cefcc59123cee34abb174e3624a3ac4061943bfc81;field=sha256:137375f450dac6c3a533f34a30719e7ec645a1930f9c656f66b625837b6c8f65",
+  "license": "CC BY-SA 3.0 IGO (ESA)",
+  "attribution": "ESA/Gaia/DPAC; Gaia Collaboration, Vallenari et al. 2023",
+  "coverage": "49192 unique sources (21438 with FLAME luminosity); bright/nearby/field selection — not a galaxy census",
+  "units": "deg, mas, mas/yr, km/s, mag, K, L_sun, pc",
+  "frame": "ICRS, epoch J2016.0; cartesian pc with Sun at origin; galactic l,b from Gaia",
+  "validationStatus": "ok",
+  "rowCount": 49192,
+  "tables": "gaia_star:49192",
+  "note": "Served from the ARI Heidelberg Gaia mirror (ESA archive timed out). Distances = 1000/parallax only for parallax_over_error > 10; uncertainties retained."
+}

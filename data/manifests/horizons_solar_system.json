@@ -1,0 +1,44 @@
+{
+  "id": "manifest.horizons.solar_system.v1",
+  "sourceUrls": [
+    "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%2710%27&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&START_TIME=%272025-01-01%27&STOP_TIME=%272025-01-02%27&STEP_SIZE=%271+d%27&REF_SYSTEM=%27ICRF%27&REF_PLANE=%27FRAME%27&VEC_CORR=%27NONE%27&OUT_UNITS=%27KM-S%27&CSV_FORMAT=%27YES%27",
+    "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27199%27&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&START_TIME=%272025-01-01%27&STOP_TIME=%272025-01-02%27&STEP_SIZE=%271+d%27&REF_SYSTEM=%27ICRF%27&REF_PLANE=%27FRAME%27&VEC_CORR=%27NONE%27&OUT_UNITS=%27KM-S%27&CSV_FORMAT=%27YES%27",
+    "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27299%27&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&START_TIME=%272025-01-01%27&STOP_TIME=%272025-01-02%27&STEP_SIZE=%271+d%27&REF_SYSTEM=%27ICRF%27&REF_PLANE=%27FRAME%27&VEC_CORR=%27NONE%27&OUT_UNITS=%27KM-S%27&CSV_FORMAT=%27YES%27",
+    "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27399%27&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&START_TIME=%272025-01-01%27&STOP_TIME=%272025-01-02%27&STEP_SIZE=%271+d%27&REF_SYSTEM=%27ICRF%27&REF_PLANE=%27FRAME%27&VEC_CORR=%27NONE%27&OUT_UNITS=%27KM-S%27&CSV_FORMAT=%27YES%27",
+    "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27301%27&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&START_TIME=%272025-01-01%27&STOP_TIME=%272025-01-02%27&STEP_SIZE=%271+d%27&REF_SYSTEM=%27ICRF%27&REF_PLANE=%27FRAME%27&VEC_CORR=%27NONE%27&OUT_UNITS=%27KM-S%27&CSV_FORMAT=%27YES%27",
+    "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27499%27&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&START_TIME=%272025-01-01%27&STOP_TIME=%272025-01-02%27&STEP_SIZE=%271+d%27&REF_SYSTEM=%27ICRF%27&REF_PLANE=%27FRAME%27&VEC_CORR=%27NONE%27&OUT_UNITS=%27KM-S%27&CSV_FORMAT=%27YES%27",
+    "https://ssd.jpl.nasa.gov/api/horizons.api?format=text&COMMAND=%27599%27&EPHEM_TYPE=VECTORS&CENTER=%27500%4010%27&START_TIME=%272025-01-01%27&STOP_TIME=%272025-01-02%27&STEP_SIZE=%271+d%27&REF_SYSTEM=%27ICRF%27&REF_PLANE=%27FRAME%27&VEC_CORR=%27NONE%27&OUT_UNITS=%27KM-S%27&CSV_FORMAT=%27YES%27"
+  ],
+  "release": "Horizons ephemeris (live API)",
+  "query": {
+    "CENTER": "500@10",
+    "EPHEM_TYPE": "VECTORS",
+    "REF_SYSTEM": "ICRF",
+    "REF_PLANE": "FRAME",
+    "VEC_CORR": "NONE",
+    "OUT_UNITS": "KM-S",
+    "CSV_FORMAT": "YES",
+    "START_TIME": "2025-01-01",
+    "STOP_TIME": "2025-01-02",
+    "STEP_SIZE": "1 d",
+    "bodies": [
+      "10",
+      "199",
+      "299",
+      "399",
+      "301",
+      "499",
+      "599"
+    ]
+  },
+  "retrievedAt": "2026-10-03T20:18:57Z",
+  "checksum": "sha256:e0cfd8ca8261890c2ffa63f7673d1e3ff4eb7ff656dc194bf1ce884537b94127",
+  "license": "NASA/JPL Horizons — public domain U.S. government work; cite SSD/JPL Horizons.",
+  "attribution": "NASA JPL Solar System Dynamics — Horizons Ephemeris System",
+  "coverage": "SSB-centered ICRF vectors at pinned epoch 2025-01-01; bodies fetched: ['sun', 'mercury', 'venus', 'earth', 'moon', 'mars', 'jupiter']",
+  "units": "normalized positions in m, velocities in m/s (converted from KM-S)",
+  "frame": "ICRF",
+  "transformationVersion": "1.0.0",
+  "validationStatus": "validated",
+  "normalizedPath": "data/normalized/horizons_solar_system.json"
+}

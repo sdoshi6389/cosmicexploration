@@ -1,0 +1,19 @@
+{
+  "id": "ncbi_clinvar",
+  "sourceName": "NCBI ClinVar + Ensembl Variation",
+  "category": "biology",
+  "sourceUrls": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar https://rest.ensembl.org/variation/human",
+  "release": "ClinVar (live) / Ensembl (live)",
+  "query": "rs334 c.20A>T; rs33930165 c.19G>A; rs33950507 c.79G>A; rs11549407 c.118C>T; rs35004220 c.93-21G>A",
+  "retrievedAt": "2026-10-04T00:03:09Z",
+  "checksum": "rs334=sha256:2c7eecce90d0dc58fd5e849826d77466185ef9506f13c8e21fa5e7ef0992bd98;rs33930165=sha256:a19c05e096edb667c66c686fe65f37612078b31decf8375f5cec121063371ae8;rs33950507=sha256:66f3dd67422f7d748774559ed7df534ffe4ffe38697facbdc2f827a6a7c6e72b;rs11549407=sha256:5c061f5582fbcfad91237943f0a021b4a05fc900d05c32917891da766c0a95f5;rs35004220=sha256:b89087b80d367832ac4d530f0a2230aa09787b522431abe5543b244a0f737448",
+  "license": "ClinVar: public domain; Ensembl: open",
+  "attribution": "NCBI ClinVar; Ensembl, EMBL-EBI",
+  "coverage": "5 curated HBB variants",
+  "units": "GRCh38 1-based; HGVS on MANE transcript",
+  "frame": "GRCh38 / NM_000518",
+  "validationStatus": "ok",
+  "rowCount": 5,
+  "tables": "variant_record:5",
+  "note": "rs334 c.20A>T: codon 7 GAG->GTG (Glu->Val; legacy residue 6); rs33930165 c.19G>A: codon 7 GAG->AAG (Glu->Lys; legacy residue 6); rs33950507 c.79G>A: codon 27 GAG->AAG (Glu->Lys; legacy residue 26); rs11549407 c.118C>T: codon 40 CAG->TAG (Gln->Ter; legacy residue 39)"
+}

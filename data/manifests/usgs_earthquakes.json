@@ -1,0 +1,19 @@
+{
+  "id": "usgs_earthquakes",
+  "sourceName": "USGS Earthquake Hazards Program — FDSN Event",
+  "category": "earth",
+  "sourceUrls": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-10-01&endtime=2026-10-01&minmagnitude=5.0&orderby=time",
+  "release": "ComCat (live)",
+  "query": "starttime=2025-10-01 endtime=2026-10-01 minmagnitude=5.0",
+  "retrievedAt": "2026-10-03T23:42:38Z",
+  "checksum": "sha256:92c9ed6f9180b5f8c84c5d0b7f5fb59f0d4f05d35c7b8e41632f54faefc45e70",
+  "license": "Public domain (USGS)",
+  "attribution": "U.S. Geological Survey",
+  "coverage": "1990 events M≥5.0",
+  "units": "magnitude (mixed types), km depth",
+  "frame": "WGS84",
+  "validationStatus": "ok",
+  "rowCount": 1990,
+  "tables": "earthquake:1990",
+  "note": "Event points do not constitute a tectonic or geological model."
+}

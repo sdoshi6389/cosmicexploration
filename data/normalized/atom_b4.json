@@ -1,0 +1,68 @@
+{
+  "schema": "cosmos.level.b4.v1",
+  "level": "B4",
+  "element": "H",
+  "levels": [
+    {
+      "n": 1,
+      "l": 0,
+      "label": "n=1",
+      "energyEv": -13.605693122994,
+      "evidence": {
+        "kind": "derived",
+        "method": "rydberg_formula",
+        "constants": "CODATA 2018 R∞, hc",
+        "sourceUrl": "https://physics.nist.gov/cuu/Constants/"
+      }
+    },
+    {
+      "n": 2,
+      "l": 0,
+      "label": "n=2",
+      "energyEv": -3.4014232807485,
+      "evidence": {
+        "kind": "derived",
+        "method": "rydberg_formula",
+        "constants": "CODATA 2018 R∞, hc",
+        "sourceUrl": "https://physics.nist.gov/cuu/Constants/"
+      }
+    },
+    {
+      "n": 3,
+      "l": 0,
+      "label": "n=3",
+      "energyEv": -1.5117436803326667,
+      "evidence": {
+        "kind": "derived",
+        "method": "rydberg_formula",
+        "constants": "CODATA 2018 R∞, hc",
+        "sourceUrl": "https://physics.nist.gov/cuu/Constants/"
+      }
+    },
+    {
+      "n": 4,
+      "l": 0,
+      "label": "n=4",
+      "energyEv": -0.850355820187125,
+      "evidence": {
+        "kind": "derived",
+        "method": "rydberg_formula",
+        "constants": "CODATA 2018 R∞, hc",
+        "sourceUrl": "https://physics.nist.gov/cuu/Constants/"
+      }
+    },
+    {
+      "n": 5,
+      "l": 0,
+      "label": "n=5",
+      "energyEv": -0.54422772491976,
+      "evidence": {
+        "kind": "derived",
+        "method": "rydberg_formula",
+        "constants": "CODATA 2018 R∞, hc",
+        "sourceUrl": "https://physics.nist.gov/cuu/Constants/"
+      }
+    }
+  ],
+  "method": "E_n = -13.605693122994 eV / n² (Rydberg, infinite mass approx.)"
+}

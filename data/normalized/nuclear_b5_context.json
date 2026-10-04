@@ -1,0 +1,23 @@
+{
+  "schema": "cosmos.level.b5_context.v1",
+  "level": "B5",
+  "isotope": "Fe-56",
+  "placeholder": true,
+  "properties": {
+    "Z": 26,
+    "N": 30,
+    "A": 56,
+    "bindingEnergyPerNucleonMeV": {
+      "value": 8.79,
+      "evidence": {
+        "kind": "assumed",
+        "note": "textbook-scale placeholder"
+      }
+    }
+  },
+  "evidence": {
+    "kind": "assumed",
+    "method": "placeholder_until_nndc_ingest",
+    "futureSource": "NNDC / NuDat"
+  }
+}
