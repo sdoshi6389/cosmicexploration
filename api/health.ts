@@ -1,4 +1,4 @@
-import { IMAGE_MODEL, json, TEXT_MODEL, VOICE_MODEL } from './_lib/xai';
+import { IMAGE_MODEL, json, TEXT_MODEL, VOICE_MODEL } from './_lib/xai.js';
 
 export function GET(): Response {
   return json({

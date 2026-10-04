@@ -1,4 +1,4 @@
-import { clientSecret, fail, json, VOICE, VOICE_MODEL } from '../_lib/xai';
+import { clientSecret, fail, json, VOICE, VOICE_MODEL } from '../_lib/xai.js';
 
 /** Mint a short-lived client secret so the browser can open the Grok Voice WebSocket. */
 export async function POST(): Promise<Response> {

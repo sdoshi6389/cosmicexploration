@@ -1,4 +1,4 @@
-import { chat, fail, json } from './_lib/xai';
+import { chat, fail, json } from './_lib/xai.js';
 
 /** One Grok planning step: returns text and/or tool calls; the browser executes tools. */
 export async function POST(req: Request): Promise<Response> {

@@ -1,5 +1,5 @@
 import { put } from '@vercel/blob';
-import { fail, image, json } from '../_lib/xai';
+import { fail, image, json } from '../_lib/xai.js';
 
 /**
  * On-demand Grok Imagine worker (serverless replacement for the polling worker).
